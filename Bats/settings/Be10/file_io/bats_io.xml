@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<select date="Jun 18 2010">
+	<save_run>
+		<name field="a">a</name>
+	  	<name field="active">active</name>
+		<name field="ana">ana</name>
+		<name field="anb">anb</name>
+		<name field="asym">asym</name>
+		<name field="b">b</name>
+		<name field="b_cur">b_cur</name> 	
+		<name field="ba_sig">ba_sig</name>
+	    <name field="corr_index">corr_index</name>
+		<name field="cycles">cycles</name>
+		<name field="g1">g1</name>
+		<name field="g1_err">g1_err</name>
+		<name field="g2">g2</name>
+		<name field="g2_err">g2_err</name>
+		<name field="iso">iso</name>
+		<name field="label">label</name>
+		<name field="r">r</name>
+		<name field="ra_sig">ra_sig</name>
+		<name field="rb_sig">rb_sig</name>
+		<name field="recno">recno</name>
+		<name field="run">run</name>
+		<name field="runtime">runtime</name>
+		<name field="reduced">reduced</name>
+		<name field="timedat">timedat</name>
+		<name field="tra">tra</name>
+		<name field="tra_sig">tra_sig</name>
+	</save_run>	
+	<save_sample>
+		<name field="carrier">carrier</name> 	
+		<name field="cycles">cycles</name>
+		<name field="desc1">desc1</name>
+		<name field="desc2">desc2</name>
+		<name field="label">label</name>
+		<name field="prep_bl">prep_bl</name>
+		<name field="sample_nr">sample_nr</name>
+		<name field="prep_nr">prep_nr</name>
+		<name field="target_nr">target_nr</name>
+		<name field="magazine">magazine</name>
+		<name field="posit">posit</name>
+		<name field="sample_year">sample_year</name>
+		<name field="sampletype">sampletype</name> 
+	  	<name field="userlabel">userlabel</name>
+	  	<name field="userlabel_nr">userlabel_nr</name>
+	  	<name field="username">username</name>
+		<name field="weight">weight</name>
+	</save_sample>	
+</select>

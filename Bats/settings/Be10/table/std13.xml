@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<std13 date="Sun Apr 22 18:35:18 CEST 2007">
+  <column Nr="0">
+    <name><![CDATA[run]]></name>
+    <value>run</value>
+    <width>68</width>
+    <format />
+    <multi>1</multi>
+    <edit>false</edit>
+  </column>
+  <column Nr="1">
+    <name><![CDATA[pos.]]></name>
+    <value>posit</value>
+    <width>36</width>
+    <format />
+    <multi>1</multi>
+    <edit>false</edit>
+  </column>
+  <column Nr="2">
+    <name><![CDATA[label]]></name>
+    <value>label</value>
+    <width>70</width>
+    <format />
+    <multi>1</multi>
+    <edit>false</edit>
+  </column>
+  <column Nr="3">
+    <name><![CDATA[magazine]]></name>
+    <value>magazine</value>
+    <width>80</width>
+    <format />
+    <multi>1</multi>
+    <edit>false</edit>
+  </column>
+  <column Nr="4">
+    <name><![CDATA[<html><sup>12</sup>C (HE)<br>(µA)</html>]]></name>
+    <value>a_cur</value>
+    <width>50</width>
+    <format>##0.00</format>
+    <multi>1</multi>
+    <edit>false</edit>
+  </column>
+  <column Nr="5">
+    <name><![CDATA[<html><sup>13</sup>C/<sup>12</sup>C<br>(%) uncorr.</html>]]></name>
+    <value>ba_cur</value>
+    <width>70</width>
+    <format>#,##0.0000</format>
+    <multi>100</multi>
+    <edit>false</edit>
+  </column>
+  <column Nr="6">
+    <name><![CDATA[<html><sup>13</sup>C/<sup>12</sup>C<br>(%) corr.</html>]]></name>
+    <value>std_ba</value>
+    <width>70</width>
+    <format>#,##0.0000</format>
+    <multi>100</multi>
+    <edit>false</edit>
+  </column>
+  <column Nr="7">
+    <name><![CDATA[err]]></name>
+    <value>std_ba_err</value>
+    <width>60</width>
+    <format>0.0000</format>
+    <multi>100</multi>
+    <edit>false</edit>
+  </column>
+  <column Nr="8">
+    <name><![CDATA[sig]]></name>
+    <value>std_ba_sig</value>
+    <width>60</width>
+    <format>0.0000</format>
+    <multi>100</multi>
+    <edit>false</edit>
+  </column>
+  <column Nr="9">
+    <name><![CDATA[type]]></name>
+    <value>sampletype</value>
+    <width>60</width>
+    <format />
+    <multi>1</multi>
+    <edit>true</edit>
+  </column>
+  <column Nr="10">
+    <name><![CDATA[delete]]></name>
+    <value>active</value>
+    <width>40</width>
+    <format />
+    <multi>1</multi>
+    <edit>true</edit>
+  </column>
+</std13>
+

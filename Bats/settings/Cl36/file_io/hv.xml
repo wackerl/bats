@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hv>
+  <run>   
+    <val name="date_hv">Measuring date, time</val>
+    <val name="commentinfo">Files</val>
+    <val name="sampletype">Sample description</val>
+    <val name="username">Operator</val>
+    <val name="label">Sample name</val>
+    <val name="posit">Sample position</val>    
+    <val name="runtime_g1">Block time</val>    
+    <val name="runtime_hv">C14 duty</val>    
+    <val name="runtime_a_hv">C12 duty</val>    
+    <val name="runtime_b_hv">C13 duty</val>    
+  </run>
+  <cycle>
+    <val name="cycle">0</val>
+    <val name="r">1</val>
+    <val name="b_c">2</val>
+    <val name="a_c">3</val>
+    <val name="g1">9</val>
+  </cycle>
+</hv>

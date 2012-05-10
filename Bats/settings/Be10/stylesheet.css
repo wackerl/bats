@@ -1,0 +1,43 @@
+/*Amsel style sheet */
+@media print{
+	@page  { size: landscape; margin: 1cm }
+	h1 { font-size: 145%; text-align: left; vertical-align: bottom }
+  	h2  { font-size: 100%; page-break-before: always }
+  	h3, h4 { page-break-after: avoid; }
+  	.printOnly, #footer { display: block; }
+  	body { 
+	    margin: 0; 
+	    padding: 0;
+	    color: black; 
+	    background-color: white 
+  	}
+	/* Headings */
+	table    { font-size: 10pt; font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif; font-style: normal; background-color: #ffffff; text-align: right; margin: 5pt; width: 800pt; min-width: 1000pt; max-width: 1000px; border: solid 0 silver; border-collapse: collapse; empty-cells: show     }
+	td   { font-size: 10pt; padding: 1pt 2pt; vertical-align: bottom; border-style: none }
+	tr  { }
+	.TableHeading    { font-size: 8pt; background-color: #eeeeff; text-align: left; margin: 0; padding: 12pt; vertical-align: baseline; border-style: solid none; border-width: 1pt medium; border-color: black }
+	.Sample   { font-size: 8pt; background-color: #ffffcf; margin: 0; padding: 12pt; border-style: dotted none solid; border-width: 1pt medium; border-color: orange black }
+	.False  { color: silver; font-size: 10pt; margin: 0; padding: 12pt }
+	sup	  { font-size: 80%; font-style: normal; vertical-align: 3pt }
+}
+@media screen {
+	h1 { font-size: 145%; text-align: left; vertical-align: bottom }
+  	h2  { font-size: 100%; page-break-before: always }
+  	h3, h4 { page-break-after: avoid; }
+  	.printOnly, #footer { display: block; }
+  	body { 
+	    margin: 0; 
+	    padding: 0;
+	    color: black; 
+	    background-color: white 
+  	}
+	/* Headings */
+	table   { font-size: 10pt; font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif; font-style: normal; background-color: #ffffff; text-align: right; margin: 5pt; width: 800pt; min-width: 1000pt; max-width: 1000px; border: solid 0 silver; border-collapse: collapse; empty-cells: show    }
+	td   { font-size: 10pt; padding: 1pt 2pt; vertical-align: bottom; border-style: none }
+	tr  { }
+	.TableHeading    { font-size: 10pt; background-color: #eeeeff; text-align: left; margin: 0; padding: 12pt; vertical-align: baseline; border-style: solid none; border-width: 1pt medium; border-color: black }
+	.Sample   { font-size: 10pt; background-color: #ffffcf; margin: 0; padding: 12pt; border-style: dotted none solid; border-width: 1pt medium; border-color: orange black }
+	.False  { color: silver; font-size: 10pt; margin: 0; padding: 12pt }
+	sup	  { font-size: 80%; font-style: normal; vertical-align: 3pt }
+}
+

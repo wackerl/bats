@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Main-Class: Bats
+Class-Path: lib/jaxen-core.jar lib/xml-apis-xerces.jar lib/jaxen-jdom.jar lib/jdom.jar lib/saxpath.jar lib/ojdbc14.jar lib/log4j-1.2.14.jar lib/minium.jar lib/looks-2.1.4.jar
+  lib/core-renderer.jar lib/jfreechart-1.0.12.jar lib/iText-2.0.8.jar lib/jcommon-1.0.15.jar lib/commons-math-1.1.jar lib/BrowserLauncher2.jar lib/mysql-connector-java-5.1.8-bin.jar lib/acrobat.jar
+  lib/batik/batik-anim.jar lib/batik/batik-awt-util.jar lib/batik/batik-bridge.jar lib/batik/batik-codec.jar lib/batik/batik-css.jar lib/batik/batik-dom.jar lib/batik/batik-ext.jar
+  lib/batik/batik-extension.jar lib/batik/batik-gui-util.jar lib/batik/batik-gvt.jar lib/batik/batik-parser.jar lib/batik/batik-script.jar lib/batik/batik-svg-dom.jar lib/batik/batik-svggen.jar
+  lib/batik/batik-swing.jar lib/batik/batik-transcoder.jar lib/batik/batik-util.jar lib/batik/batik-xml.jar lib/batik/js.jar lib/batik/pdf-transcoder.jar lib/xml-apis-ext.jar lib/xerces.jar
+Created-By: Lukas Wacker
+Main-Class: Bats
+Name: BATSSpecification-Title: BATSSpecification-Version: 2.91Specification-Vendor: Lukas WackerImplementation-Title: BATSImplementation-Version: build1Implementation-Vendor: Lukas Wacker / Switzerland
+

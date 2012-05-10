@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="build" name="Bats">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../../../../Applications/eclipse"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.5"/>
+    <property name="source" value="1.5"/>
+    <path id="Bats.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="../lib/jaxen-core.jar"/>
+        <pathelement location="../lib/xml-apis-xerces-2.9.1.jar"/>
+        <pathelement location="../lib/jaxen-jdom.jar"/>
+        <pathelement location="../lib/jdom.jar"/>
+        <pathelement location="../lib/saxpath.jar"/>
+        <pathelement location="../lib/ojdbc14.jar"/>
+        <pathelement location="../lib/log4j-1.2.14.jar"/>
+        <pathelement location="../lib/minium.jar"/>
+        <pathelement location="../lib/looks-2.1.4.jar"/>
+        <pathelement location="../lib/core-renderer.jar"/>
+        <pathelement location="../lib/jfreechart-1.0.12.jar"/>
+        <pathelement location="../lib/iText-2.0.8.jar"/>
+        <pathelement location="../lib/jcommon-1.0.15.jar"/>
+        <pathelement location="../lib/commons-math-1.1.jar"/>
+        <pathelement location="../lib/mysql-connector-java-5.0.7-bin.jar"/>
+        <pathelement location="../lib/acrobat.jar"/>
+        <pathelement location="../lib/batik/batik-anim.jar"/>
+        <pathelement location="../lib/batik/batik-awt-util.jar"/>
+        <pathelement location="../lib/batik/batik-bridge.jar"/>
+        <pathelement location="../lib/batik/batik-codec.jar"/>
+        <pathelement location="../lib/batik/batik-css.jar"/>
+        <pathelement location="../lib/batik/batik-dom.jar"/>
+        <pathelement location="../lib/batik/batik-ext.jar"/>
+        <pathelement location="../lib/batik/batik-extension.jar"/>
+        <pathelement location="../lib/batik/batik-gui-util.jar"/>
+        <pathelement location="../lib/batik/batik-gvt.jar"/>
+        <pathelement location="../lib/batik/batik-parser.jar"/>
+        <pathelement location="../lib/batik/batik-script.jar"/>
+        <pathelement location="../lib/batik/batik-svg-dom.jar"/>
+        <pathelement location="../lib/batik/batik-svggen.jar"/>
+        <pathelement location="../lib/batik/batik-swing.jar"/>
+        <pathelement location="../lib/batik/batik-transcoder.jar"/>
+        <pathelement location="../lib/batik/batik-util.jar"/>
+        <pathelement location="../lib/batik/batik-xml.jar"/>
+        <pathelement location="../lib/batik/js.jar"/>
+        <pathelement location="../lib/batik/pdf-transcoder.jar"/>
+        <pathelement location="../lib/batik/xml-apis-ext.jar"/>
+        <pathelement location="../lib/BrowserLauncher2.jar"/>
+    </path>
+    <path id="run.[Scrapbook] myPage.jpage.classpath">
+        <pathelement location="../../../../../Applications/eclipse/configuration/org.eclipse.osgi/bundles/84/1/.cp/snippetsupport.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src" excludes="**/*.launch, **/*.java"/>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}">
+            <src path="src"/>
+            <exclude name="calib/"/>
+            <classpath refid="Bats.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="[Scrapbook] myPage.jpage">
+        <java classname="org.eclipse.jdt.internal.debug.ui.snippeteditor.ScrapbookMain" failonerror="true" fork="yes">
+            <arg line=" file:/Users/lukas/Documents/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/AgePlot/org.eclipse.jdt.debug.ui/ file:/Users/lukas/Documents/workspace/AgePlot/ file:/Users/lukas/Documents/workspace/jmsl3.0/classes/jmsl.jar file:/Users/lukas/Documents/workspace/oracle/classes12.jar"/>
+            <classpath refid="run.[Scrapbook] myPage.jpage.classpath"/>
+        </java>
+    </target>
+    <target name="Bats">
+        <java classname="Bats" failonerror="true" fork="yes">
+            <jvmarg line="-Xmx400M"/>
+            <classpath refid="Bats.classpath"/>
+        </java>
+    </target>
+</project>

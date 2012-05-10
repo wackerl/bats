@@ -1,0 +1,375 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1"/>
+		<meta name="generator" content="Adobe GoLive"/>
+		<title>Untitled Page</title>
+		<link href="stylesheet.css" rel="stylesheet" type="text/css" media="all">
+	</head>
+
+	<body>
+		<table width="600" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td colspan="3" width="600">
+					<h3>Change Log</h3>
+					<p>&nbsp;</p>
+					<h5>3.21:</h5>
+                  <h6>xx.03.2012 </h6>
+                    <ul type="disc">
+                      <li type="circle">Data output corrected (removed one wrong molecular correction)                                       
+                      <li type="circle">                     
+                      <li type="circle">                                    
+                    </ul>
+                  <h6>01.11.2011 </h6>
+                    <ul type="disc">
+                      <li type="circle">Weighting of standard uncertainties slightly changed                                        
+                      <li type="circle">Multiplication factor for tables changed from integer to double (allows now divisions...)                     
+                      <li type="circle">Info panel updated                                       
+                    </ul>
+				 <h5>3.13:</h5>
+                  <h6>21.04.2011 </h6>
+                  <ul type="disc">
+                      <li type="circle">The molecular correction was not always correctly displayed in the output file (fixed)                                            
+                      <li type="circle">Logging extended in calibration part.                      
+                      <li type="circle">Plot for current correction slightly modified.                                       
+                  </ul>
+<h5>3.13:</h5>
+                  <h6>31.01.2011 </h6>
+                    <ul type="disc">
+                      <li type="circle">Uncertainty of standards was not correclty used in error calculation for the samples in radiocarbon calculations (has only a significant influence when standard mean value is different from 1
+                        E-12).
+                      <li type="circle">Plot for current correction slightly modified.                                       
+                  </ul>
+                    <h5></h5>
+<h5>3.10:</h5>
+                  <h6>17.11.2010 </h6>
+                    <ul type="disc">
+                      <li type="circle">Many small bubgixes for db connection with NT
+                        (should now be usable).
+                      <li type="circle">Autocalc was activated when .bats files were opened, it is now deactivated
+                      <li type="circle">Improved save to Excel (better formatting, collored std and bl)
+                  </ul>
+<h6></h6>
+                    <h5>2.91:</h5>
+                    <h6>21.07.2010 </h6>
+                  <ul type="disc">
+                      <li type="circle">Default directory for saving data can now be changed
+                      <li type="circle">Changed saving procedures in calibration plots 
+                        
+                      <li type="circle">Added possibility for processing blank subtraction (in addition to normal blank) 
+                      <li type="circle">Changed save to db (changes in DB)  
+                      <li type="circle">Bugfix in file open (didn't read all correction correctly)                                             
+                  </ul>
+                    <h6></h6>
+<h5>2.80:</h5>
+				  <h6>24.06.2010 </h6>
+					<ul type="disc">
+                      <li type="circle">Added deadtime correction 
+                      <li type="circle">Activated insert mode in text input fields
+                      <li type="circle">Year zero in AD/BC mode is removed in calibation 
+                      <li type="circle">Title in correction plots corrected for current and time correction 
+                      <li type="circle">NEC data import added                                            
+                  </ul>
+					<h5></h5>
+					<h5>2.65:</h5>
+					<h6>22.04.2010 </h6>
+					<ul type="disc"><li type="circle">Added save of calibration data to file
+                      <li type="circle">Changed behaviour of Preferences 
+                      <li type="circle">Calibration ranges are automatically calculated, when files are saved 
+                      <li type="circle">Calibration is updated<li type="circle">Warning implemented, when standard or blank mean is fixed, but corrections will are to be changed (to avoid wrong calculations)<li type="circle">Standard ans blank mean 
+				      is now fixed with the active checkbox 
+					  <li type="circle">New position-sort of samples in first table
+					  <li type="circle">DB connection to NT tables: Calculations can also be saved to db				  
+					</ul>
+					<p>&nbsp;</p>
+					<h5>2.5:</h5>
+					<h6>01.03.2010 </h6>
+					<ul type="disc">
+					  <li type="circle">Calcium implemented                       
+				      <li type="circle">Automatic resize of cycle table                       
+				      <li type="circle">Only one DB connection is active at once! 
+			          <li type="circle">Fields in Menu bar are deactivated when not usable 
+			          <li type="circle"><span class="cit">New bats-file format</span>: sample information and run information is separated                       
+				  	<li type="circle">Schemata field removed for MySQL db, should now be included in table fields. <li type="circle">Settings of calibration plot are now saved seperately in new file (calib.xml)
+                      <li type="circle"><span class="cit">Import from new database</span> added (instead of opend from db).
+                      Completely rewritten DbIO! 
+                      <li type="circle">When no data is present, nothing should now be displayed, saved or calculated (Setting.no_data). 
+                      <li type="circle"><span class="cit">Added new fields</span> to sample class: sample_nr, prep_nr, target_nr, desc2, userlabel_nr, material fraction. 
+                      <li type="circle">No character replacement in label and comment field anymore -&gt; changed save to file.  
+                  </ul>
+					<h5>&nbsp;</h5>
+					<h5>2.0<em></em>:</h5>
+					<h6>12.10.2009 </h6>
+					<ul type="disc">
+                      <li type="circle">MySQL: Connection problem solved. Connection is tested to be still valid.
+                        Otherwise it is reconnected. 
+                      <li type="circle">Bugfix: sigma of standard mean was wrong, when cycle deactivated 
+                      <li type="circle">Made cycle import to work with MySQL (fixed several bugs)
+                      <li type="circle">Calibrated ranges for samples can be calculated (and shown in table). 
+                        
+                      <li type="circle">Changed Font to UTF8 (for special characters).                         
+                      <li type="circle">Runs with no data are now automatically deactivated (when there is no runtime)  
+                      <li type="circle">Bugfix: sigma of sample standards was not correct (deactivated samples were also taken!).
+                      <li type="circle">Changed behaviour of TextFields in Preferences (to Focus lost).               
+                      <li type="circle">New import of HV measurement files 
+                      <li type="circle">New internal data structure (major change). Sample info is now only stored once, and not for every run again and again. 
+                  </ul>
+					<h5>&nbsp;</h5>
+					<h5>1.5<em></em>:</h5>
+					<h6>01.04.2009 </h6>
+					<ul type="disc">
+                      <li type="circle">Bugfix: ra_bl for samples was not caculated right, when split correction was applied (no effect on the end result) 
+                      <li type="circle">Added first version of SwissCal! (with save and manual scaling of axes) 
+                  </ul>
+					<p></p>
+					<h5>1.25<em></em>:</h5>
+					<h6>18.02.2009 </h6>
+					<ul type="disc">
+                      <li type="circle">Many bugfixes for Pu calculation (eg uranium correction), Pu should now work! 
+                      <li type="circle">Bugfix: sample scatter was not loaded from file.                                        
+                  </ul>
+					<p>&nbsp;</p>
+					<h5>1.20<em></em>:</h5>
+					<h6>11.11.2008 </h6>
+					<ul type="disc">
+                      <li type="circle"><span class="cit">Fixed blank scatter was removed from the calculations and replaced with an external error (sample scatter)</span>
+                      <li type="circle"><span class="cit">Always the error (and never the sigma) of the d13C of the standards is taken</span> 
+                      <li type="circle">Bugfix: Sigma of standard mean was not calculated properly, when a run was deactivated<li type="circle">Cycle import; standard deviation also set, when only 1 cylcle is imported                       
+				  	</ul>
+					<h5>&nbsp;</h5>
+					<h5>1.10<em></em>:</h5>
+					<h6>10.10.2008 </h6>
+					<ul type="disc"><li type="circle">Bugfix: Sigma of standard mean was not calculated properly, when a run was deactivated. 
+                      <li type="circle">                      Settings improved (font size) 
+					  <li type="circle">Info panel can be set to the right  and left                     
+                      <li type="circle">Debuging: Constant contamination; ratio could not be set to 0!             
+                      <li type="circle">Debuging: last run was not imported from Oracle!                       
+                      <li type="circle">Absolute pmC is calculated (added sample date)                                            
+                      <li type="circle">Small change in data import from Oracle; to_char of timedat removed (-&gt; in db_ora.xml timedat could be added)
+                      <li type="circle">Info panel can now be moved to the right side                                                                      
+			      </ul>
+					<h5>&nbsp;</h5>
+					<h5>1.01<em></em>:</h5>
+					<h6>01.07.2008 </h6>
+					<ul type="disc">
+                      <li type="circle">xhtml output improved (corrections are given in a more flexible way) 
+                      <li type="circle">Pu data reduction should work now 
+                        (experimental)                      
+                      <li type="circle">Oxcal can now be directely started from Bats (still experimental, no modern and marin samples possible 
+				  Tryed to implement Oxcal connection; seems not to work correctely yet!                                            
+					 <li type="circle">Query changed to get magazine list from Oracle and MySQL(a lot faster, but year is not selectable anymore!) 
+				      <li type="circle">Login slightly improved for Oracle                       
+				  </ul>
+					<h5>&nbsp;</h5>
+					<h5>1.00 <em>final</em>:</h5>
+					<h6>04.05.2008 </h6>
+					<ul type="disc">
+					  <li type="circle">Cycle edit added (not jet tested for all isotopes!) 
+				      <li type="circle">Debugged font size changes                       
+				      <li type="circle">Improved output; only used corrections are given                       				  
+				      <li type="circle">Improved and debuged information panel (only used corrections are visible) 
+			          <li type="circle">Added zooming of xhtml-panel  (there is still coming an error, but with no visible complications; flying saucer error?)         
+                      <li type="circle">Updated flying saucer (xhtml)
+                      <li type="circle">Added some toolbar buttons                                            
+                      <li type="circle">Isobar correction modified to be used for Be as well                       
+                      <li type="circle">Be import from DB added 
+ (test status)                     
+                      <li type="circle">Pu import and calculations added (test status)                                           
+                      <li type="circle">Implemented timeout after a given time for DB connection 
+                      <li type="circle">Added constant contamination (save/open should work as well)                       
+                      <li type="circle">Corrected cycle import (sigma of ratio was wrong)                                            
+                      <li type="circle">Error of corrected radioisotope of samples was wrong, corrected 
+                      <li type="circle">Forgotten to save and open fractionation correction -&gt; added to file and database                                            
+                      <li type="circle">Corrected statistical scatter of std/bl 
+                      <li type="circle">Made program more tolerant to missing data (was a problem with MySQL) 
+                      <li type="circle">Information of Corrections in xhtml file and in panel is displayed better <li type="circle">Corected settings of DB import                       
+				  (change settings did not work properly) 
+                  </ul>
+					<p>&nbsp;</p>
+					<h5>1.00<em>beta</em>:</h5>
+					<h6>17.01.2008</h6>
+					<ul type="disc">
+                      <li type="circle">Changes in modification of data in tables (r, a, b and runtime cannot be changed anymore) 
+                      <li type="circle">                      Added constant background (modified InfoPane as well) 
+				  	<li type="circle">Second DB can be selected up to save data (selectable) 
+					  <li type="circle">Modified Oracle connection (for better user experiance)                                            
+					  <li type="circle">Recalc deactivated when calculated data is loaded (from .bats-file and DB)
+				      <li type="circle">Program reset implemented (to be extended) </li>
+					  <li type="circle">Limits can be set for columns in table (highlighted when out of limits)                      <li type="circle">Added Chi2                                            
+					  <li type="circle">Added save to calc-set
+				      <li type="circle">Removed bug in save to DB
+				      <li type="circle">Corrected xhtml output
+			          <li type="circle">Corrected calculation for error of current and blank corrected values
+			          <li type="circle">Implemented calculations for Pu/Pa (testing).  
+		              <li type="circle">Corrected some wrong calculations in DefaultCalc (sigma was wrong...)                       				        
+		              <li type="circle">Sigma of runs was not jet calculated the way it should... Corrected
+	                  <li type="circle">New table format files are now saved properly and program remembers which one was the last
+	                  <li type="circle">Changed .xml format of settings to UTF-8
+                      <li type="circle">New Stylesheet for output.
+                      <li type="circle">The selected format file for the .xhtml output is taken for format of all output files as well.
+                      <li type="circle">Format of files: Datafields are now named!
+                  </ul>
+					<p>&nbsp;</p>
+					<h5>0.90:</h5>
+					<h6>12.11.2007</h6>
+					<ul>
+						<li type="circle">Improved save to file. Excel export is added!
+						<li type="circle">Added open pdf for printing (experimental)
+						<li type="circle">Improved MySQL save/open
+						<li type="circle">Added MySQL import
+						<li type="circle">Re-organised Menue (-&gt; DB menue)
+						<li type="circle">Added save to pdf
+						<li type="circle">Changed stylesheet (and code)
+						<li type="circle">Added comment for magazine and for samples (for data reduction)
+						<li type="circle">Improved list of last files (should be updated as well when autosave is on)
+						<li type="circle">Fixed some bugs for data save to DB, it should now work properly (deleted samples were lost before)
+						<li type="circle">Relative errors of std and bl can now be entered, too
+						<li type="circle">Added separate C14 for Tandem
+						<li type="circle">Made some small bugfixes and improvements
+					  <li type="circle">Updated flying saucer to 0.8pre    
+				    </ul>
+					<p>&nbsp;</p>
+					<h5>0.8:</h5>
+					<h6>11.09.2007</h6>
+					<ul>
+						<li type="circle">Changed preferences (DB/UI settings etc.)
+						<li type="circle">Fonts can now be changed
+						<li type="circle">Added connection to mysql database (open/save to mysql possible)<br>
+							used only locally - MySQL-DB still missing!
+						<li type="circle">Moved isobar corrections to Correction class (from CalcData). Still the correction can only be done once (but this could now easily be changed)
+						<li type="circle">Bugfix: Save to .bats-file was not correct for isobar corrections
+						<li type="circle">Bugfix: Open .bats-file was not correct
+						<li type="circle">Bugfix: Imput fields and checkbox didn't work correctly
+						<li type="circle">Bugfix: (De)Activate runs was not properly implemented
+						<li type="circle">Bugfix: If field with Double was changed, the value was not set right, when Bugfix: Isobar correction error was not jet (properly) calculated
+						<li type="circle">Always recalculate when new data is imported
+						<li type="circle">Added scatter of mean of standards
+					</ul>
+					<h5></h5>
+					<h5>0.7:</h5>
+					<h6>20.08.2007</h6>
+					<ul>
+						<li type="circle">Added <span>time correction </span>(improved date import)
+						<li type="circle">Added toolbar with some Preferences (is not jet updated correctly!)
+						<li type="circle">Added different isobar correction for 10Be
+						<li type="circle">Added slope fuction through 0 (error weighted)
+						<li type="circle">Added run number to plots
+						<li type="circle">Added Preferences toolbar button
+						<li type="circle">iso_err is calculated from poisson statistics of iso by default (but not for 14C)
+						<li type="circle">Added coloring of blank (and standard) in output file (to see, if blank substraction is done)
+						<li type="circle">Bugfix: Poisson statistic was wrongly impemented (calculated when false!)
+						<li type="circle">Bugfix: CorrIndex was not jet saved to file!
+						<li type="circle">Additional information added in the info panel
+						<li type="circle">Updated libraries Flying sourcer (from 0.7pre1 to official 0.7) and JFreeChart (1.04 to 1.06), has some advantages (and disadvantages...)
+						<li type="circle">Current and time corrections are now done for every Corretion idividually<li type="circle">Standard and Blank plot: individual mean lines are now plotted when data is splitted
+						<li type="circle">Page break for output file can be automatised and on every sheet there is a new table header.
+						<li type="circle">Standard and blank tables (with plot) can now be run sorted in addtion to label sorted (-&gt;toolbar)
+						<li type="circle">Changed from Fatjar to normal jar with additional directory with external libraries.
+						<li type="circle">Added autosave of bats-files
+						<li type="circle">Improved recalculation
+						<li type="circle">Added Toolbar that shows status of calculations
+						<li type="circle">... and many small changes
+			      </ul>
+					<p>&nbsp;</p>
+					<h5>0.6:</h5>
+					<h6>11.06.2007</h6>
+					<ul>
+						<li type="circle">Corrected file save for .cvs (comma delimited) and .txt (tab delimited)
+						<li type="circle">Corrected plot (colors are now right)
+						<li type="circle">Corrected calculation of 13/12 of std (uncorrected <span class="cit">ba</span> was taken instead of <span class="cit">ba_cur</span>)
+						<li type="circle">Moved calc checkboxes from Infopanel to toolbar
+			      </ul>
+					<p>&nbsp;</p>
+					<h5>0.5:</h5>
+					<h6>04.05.2007</h6>
+					<ul>
+						<li type="circle">If <span class="cit">no blank</span> is available, it is set to 0 (before there was an error!)
+						<li type="circle">Added <span class="cit">re-initiallise</span> of data (makes new correction, sample mean etc.)
+						<li type="circle"><span class="cit">Add data form DB</span> added
+						<li type="circle">Add first <span class="cit">10Be</span> and <span class="cit">129I</span> calculations (only testing!)
+						<li type="circle"><span class="cit">Change isotope</span> added
+						<li type="circle">Improved cycle import (-&gt; better run number)
+						<li type="circle">Selection of charge state added
+			      </ul>
+					<p>&nbsp;</p>
+					<h5>0.4:</h5>
+					<h6>22.04.2007</h6>
+					<ul>
+						<li type="circle">firstRun / lastRun added to correction (correction should only be valide for this range)
+						<li type="circle">Magazine information is loaded from <span class="cit">.bats</span> files.
+						<li type="circle">Removed separate plot of standards and blanks
+						<li type="circle">Several corrections can be entered for one data-set (-&gt; <span class="cit">split correction</span>), is still experimental (hope it works!)
+						<li type="circle">Exteded <span class="cit">autorecalc</span> functionality (selectable in Preferences), can now do recalc also when cycles are activated or sampletype is changed.
+						<li type="circle">Corrected sigma errors (sigma is now only defined by distribution; includes not all errors!) -&gt; sigma errors can now be compared with pure counting statistics.
+						<li type="circle">Replaced fields like <span class="cit">ratrue</span>, <span class="cit">rtrue</span> and <span class="cit">batrue</span> with only one field called <span class="cit">active</span>
+						<li type="circle">Changed the corrected mean+- calculations to a more logical way, idea is still the same.
+						<li type="circle">Scrolling problem of table header finally solved!
+						<li type="circle"><span class="cit">.xhtml</span> output of samples only can be selected as well (in addition to runs and samples).<span class="cit"> .xhtml</span> output can directly be opened in default browser from BATS. Some small changes made to the output format.
+						<li type="circle">Mean of current and total counts (background corrected) of all standards and blanks added.
+						<li type="circle">Linear regression added to isobar correction plot
+						<li type="circle">And several small changes...
+			      </ul>
+					<p>&nbsp;</p>
+					<h5>0.3:</h5>
+					<h6>10.04.2007</h6>
+					<ul>
+						<li type="circle">Set language to english (for buttons)
+						<li type="circle">Corrected + / - in format tables
+						<li type="circle">Corrected and updated toolbars
+						<li type="circle">Changed <span class="cit">correction set</span>... hope it is better now!
+						<li type="circle">Data file format changed (<span class="cit">.bats</span> instead of <span class="cit">.bml</span>). No old files can be opened anymore! (Better to get rid of it now!)
+						<li type="circle">Last file shows up immediatly in the menu, when saved (program has not to be restartet)
+			      </ul>
+					<p>&nbsp;</p>
+					<h5>0.2:</h5>
+					<h6>05.04.2007</h6>
+					<ul>
+						<li type="circle">Color settings added
+						<li type="circle">SettingPanel renamed to Preferences
+						<li type="circle">Oracle connection rewritten (Password and synonym is stored!).
+						<li type="circle">Fractionation correction for 14/12 of standards added (and corrected)
+						<li type="circle">Cycle import from db added
+						<li type="circle">First version of Help implemented (with default browser of the OS)
+						<li type="circle">Log file view added
+						<li type="circle">Error of bg correction corrected (still not quiet right!)
+			      </ul>
+					<p>&nbsp;</p>
+					<h5>0.1:</h5>
+					<h6>24.03.2007</h6>
+					<ul>
+						<li type="circle">Poisson distribution added
+						<li type="circle">Linear regression added to current plots
+						<li type="circle">Nominal value of 14/12 set to 100 pmC.
+			      </ul>
+					<p>&nbsp;</p>
+					<h5>0.00:</h5>
+					<h6>15.03.2007</h6>
+					<p>First release (full of bugs!)</p>
+					<h5></h5>
+					<h5></h5>				</td>
+		  </tr>
+			<tr>
+				<td colspan="3" width="600">
+					<p>&nbsp;</p>
+					<hr noshade size="1" color="#000080">
+				</td>
+			</tr>
+			<tr>
+				<td width="200">
+					<div align="left">
+						<p><i><span class="last"><!-- #BeginDate format:Ge1 -->21.04.2011<!-- #EndDate --></span></i></p>
+				  </div>
+				</td>
+				<td width="200"></td>
+				<td width="200">
+					<div align="right">
+						<i><span class="last">by Lukas Wacker</span></i></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+
+</html>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cycle date="Fri May 09 22:46:56 CEST 2008">
+  <column Nr="0">
+    <name><![CDATA[<html><br><br>run</html>]]></name>
+    <value>run</value>
+    <val-name>run</val-name>
+    <width>82</width>
+    <format />
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="1">
+    <name><![CDATA[<html><br><br>cyle</html>]]></name>
+    <value>cycles</value>
+    <val-name>cycles</val-name>
+    <width>40</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="2">
+    <name><![CDATA[<html><br><sup>10</sup>Be<br>unc.</html>]]></name>
+    <value>r</value>
+    <val-name>10Be</val-name>
+    <width>50</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="3">
+    <name><![CDATA[<html><sup>9</sup>Be<br>HE<br>(µA)</html>]]></name>
+    <value>a</value>
+    <val-name>9Be</val-name>
+    <width>50</width>
+    <format>##0.00</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="4">
+    <name><![CDATA[<html><br><sup>10</sup>B<br></html>]]></name>
+    <value>iso</value>
+    <val-name>⁹B</val-name>
+    <width>50</width>
+    <format>##0.00</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="5">
+    <name><![CDATA[<html><sup>10</sup>Be/<sup>9</sup>Be<br>unc.<br>(10<sup>-12</sup>)</html>]]></name>
+    <value>ra</value>
+    <val-name>¹⁰Be/⁹Be</val-name>
+    <width>65</width>
+    <format>#,##0.00</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="6">
+    <name />
+    <value>active</value>
+    <val-name>active</val-name>
+    <width>24</width>
+    <format />
+    <multi>1</multi>
+    <edit>true</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+</cycle>
+

@@ -1,0 +1,27 @@
+<!--dbxl file import-->
+<dbxl>
+  <col>run</col>
+  <col>posit</col>
+  <col>label</col>
+  <col>commentinfo</col>
+  <col>date</col>
+  <col>time</col>
+  <col>magazine</col>
+  <col>r</col>
+  <col>rdel</col>
+  <col>a</col>
+  <col>b_nano</col>
+  <col>ana</col>
+  <col>anb</col>
+  <col>ra</col>
+  <col>ra_sig_p</col>
+  <col>ba</col>
+  <col>ba_sig_p</col>
+  <col>rb</col>
+  <col>rb_sig_p</col>
+  <col>tra</col>
+  <col>trasig</col>
+  <col>iso</col>
+  <col>runtime</col>
+  <col>cycles</col>
+</dbxl>

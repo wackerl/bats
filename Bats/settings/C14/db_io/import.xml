@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mysql date="Mon Dec 21 CET 2009">
+	<proto_virtual>
+		<val name="a">a</val>
+		<val name="ana">ana</val>
+		<val name="anb">anb</val>
+		<val name="b">b</val>
+		<val name="ba_pc">ba</val>
+		<val name="basig">basig</val>
+		<val name="cycles">cycles</val>
+		<val name="g1">g1</val>
+		<val name="g2">g2</val>
+		<val name="iso">iso</val>
+		<val name="label">label</val>
+		<val name="r">r</val>
+		<val name="ra">ra</val>
+		<val name="rasig">rasig</val>
+		<val name="rb">rb</val>
+		<val name="rbsig">rbsig</val>
+		<val name="run">run</val>
+		<val name="runtime">runtime</val>
+		<val name="stripper">strippr</val>
+		<val name="tra">tra</val>
+		<val name="trasig">trasig</val>	
+		<val name="carrier">carrier</val>
+		<val name="timestamp">timedat</val>
+		<val name="weight">weight</val>
+	</proto_virtual>	
+	<proto>
+		<val name="a">a</val>
+		<val name="ana">ana</val>
+		<val name="anb">anb</val>
+		<val name="anbana">anbana</val>
+		<val name="b">b</val>
+		<val name="ba_pc">ba</val>
+		<val name="basig">basig</val>
+		<val name="cycle">cycles</val>
+		<val name="g1">g1</val>
+		<val name="g2">g2</val>
+		<val name="iso">iso</val>
+		<val name="label">label</val>
+		<val name="r">r</val>
+		<val name="ra">ra</val>
+		<val name="rasig">rasig</val>
+		<val name="rb">rb</val>
+		<val name="rbsig">rbsig</val>
+		<val name="run">run</val>
+		<val name="runtime">runtime</val>
+		<val name="stripper">strippr</val>
+		<val name="timestamp">timedat</val>
+		<val name="tra">tra</val>
+		<val name="trasig">trasig</val>	
+	</proto>
+	<final>
+		<val name="commentinfo">commentinfo</val>
+		<val name="magazine">magazine</val>
+		<val name="carrier">carrier</val>
+		<val name="sampletype">samptype</val>
+		<val name="weight">weight</val>
+		<val name="username">username</val>
+		<val name="userlabel">userlabel</val>
+		<val name="label">label</val>
+		<val name="posit">posit</val>
+	</final>
+	<ana>
+		<val name="a">a</val>
+		<val name="ana">ana</val>
+		<val name="anb">anb</val>
+		<val name="b">b</val>
+		<val name="ba_pc">ba</val>
+		<val name="g1">g1</val>
+		<val name="g1a">g1a</val>
+		<val name="g2">g2</val>
+		<val name="iso">iso</val>
+		<val name="r">r</val>
+		<val name="ra">ra</val>
+		<val name="rb">rb</val>
+		<val name="cycle">cycle</val>
+		<val name="run">run</val>
+		<val name="runtime">runtime</val>
+		<val name="stripper">strippr</val>
+		<val name="timestamp">timedat</val>
+		<val name="tra">tra</val>
+	</ana>	
+</mysql>
+

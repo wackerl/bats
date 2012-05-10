@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+		<meta name="generator" content="Adobe GoLive">
+		<title>Untitled Page</title>
+		<link href="stylesheet.css" rel="stylesheet" type="text/css" media="all">
+	</head>
+
+	<body bgcolor="#ffffff">
+		<table width="600" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td colspan="3" width="600">
+					<h1>Procedure of data calculations</h1>
+					<p>The data is stored in an Array of runs. A run is a single measurement. Typically 3-10 runs are measured of one sample.</p>
+					<h5>The procedure is as follows:</h5>
+					<h6>Initialisation of data (initData):</h6>
+					<p>This is called only once, after runs are imported.</p>
+					<ul>
+						<li type="circle">Runs are sorted (-&gt; label and run sorted)
+						<li type="circle">List of corrections is initialised
+						<li type="circle">Runs are initialised (<i>initRunCalc</i>), no real calculations jet.
+						<li type="circle">Sample list is created (from label sorted run list (<i>initSampleCalc</i>)
+					</ul>
+					<h6>Calculate data (calcAll)</h6>
+					<p>This is called always, when data is (re-)calculated.</p>
+					<ul>
+						<li type="circle"><a href="preferences.html"><i>Preferences</i></a> are loaded (current correction, isobar correction etc)
+						<li type="circle"><span class="cit">Runs</span> are pre-calculated (with current correction and isobar correction, but without standard and blank correction, <i>runPreCalc</i>)
+						<li type="circle"><span class="cit">Samples</span> are pre-calculated (<i>samplePreCalc</i>)
+						<li type="circle">Corrections are calculated (<i>setCorrection</i>):<br>
+							- Isobar and time correction of radioisotope<br>
+							- Blank correction (on ratio)<br>
+							- &#x2206;<sup>13</sup>C standard correction (for radiocarbon only)<br>
+							- Standard correction
+					  <li type="circle">Corrected ratios of <span class="cit">runs</span> and <span class="cit">samples</span> are calculated                       
+					  </ul>
+				  <p><br>
+				    A more detail description what BATS does can be found in <a href="2010 Wacker.pdf" target="main"><em>Wacker et al. 2010</em></a>. </p>                                                 
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" width="600">
+					<p>&nbsp;</p>
+					<hr noshade size="1" color="#000080">
+				</td>
+			</tr>
+			<tr>
+				<td width="200">
+					<div align="left">
+						<i><span class="last">18.06.2010</span></i></div>
+				</td>
+				<td width="200"></td>
+				<td width="200">
+					<div align="right">
+						<i><span class="last">by Lukas Wacker</span></i></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+
+</html>

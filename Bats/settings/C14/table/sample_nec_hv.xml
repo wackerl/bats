@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sample date="Wed Jul 21 12:09:19 CEST 2010">
+  <column Nr="0">
+    <name><![CDATA[<html><br>sample<br>label</html>]]></name>
+    <value>label</value>
+    <val-name>label</val-name>
+    <width>76</width>
+    <format />
+    <multi>1</multi>
+    <edit>true</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="1">
+    <name><![CDATA[<html><sup>12</sup>C<br>HE<br>(µA)</html>]]></name>
+    <value>a_cur</value>
+    <val-name>¹²C current corr. (µA)</val-name>
+    <width>44</width>
+    <format>##0.0</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>15.0</high-limit>
+    <low-limit>2.0E-4</low-limit>
+  </column>
+  <column Nr="2">
+    <name><![CDATA[<html><br><sup>14</sup>C<br>bg. corr.</html>]]></name>
+    <value>r_cor</value>
+    <val-name>¹⁴C bg-corr.</val-name>
+    <width>65</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="3">
+    <name><![CDATA[<html><br>err<br>(%)</html>]]></name>
+    <value>r_cor_errR</value>
+    <val-name>error (rel) of ¹⁴C bg-corr.</val-name>
+    <width>44</width>
+    <format>#,##0.00</format>
+    <multi>100</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="4">
+    <name><![CDATA[<html><sup>12</sup>C/<sup>14</sup>C<br>bg cor.<br>(10<sup>-12</sup>)</html>]]></name>
+    <value>ra_bg</value>
+    <val-name>¹⁴C/¹²C bg-corr.</val-name>
+    <width>60</width>
+    <format>##0.000</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="5">
+    <name><![CDATA[<html><sup>12</sup>C/<sup>14</sup>C<br>std cor.<br>(10<sup>-12</sup>)</html>]]></name>
+    <value>ra_fin2</value>
+    <val-name>¹⁴C/¹²C std corrected</val-name>
+    <width>60</width>
+    <format>##0.000</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="6">
+    <name><![CDATA[<html><br>pMC<br>corr.</html>]]></name>
+    <value>pmC</value>
+    <val-name>pmC</val-name>
+    <width>55</width>
+    <format>0.00</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="7">
+    <name><![CDATA[<html><br>error<br>(%)</html>]]></name>
+    <value>pmC_errR</value>
+    <val-name>error (rel) pmC</val-name>
+    <width>44</width>
+    <format>0.00</format>
+    <multi>100</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="8">
+    <name><![CDATA[<html><br>error<br></html>]]></name>
+    <value>pmC_err</value>
+    <val-name>error (abs) pmC</val-name>
+    <width>44</width>
+    <format>0.00</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="9">
+    <name><![CDATA[<html><br>sigma<br>(%)</html>]]></name>
+    <value>pmC_sigR</value>
+    <val-name>sigma (rel) pmC</val-name>
+    <width>44</width>
+    <format>0.00</format>
+    <multi>100</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="10">
+    <name><![CDATA[<html><br><br>Χ²<sub>red</sub><br></html>]]></name>
+    <value>pmC_chi</value>
+    <val-name>Χ²(red) pmC</val-name>
+    <width>50</width>
+    <format>0.00</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>true</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="11">
+    <name><![CDATA[<html><br><br>year<br></html>]]></name>
+    <value>sample_year</value>
+    <val-name>year of sampling</val-name>
+    <width>50</width>
+    <format>0</format>
+    <multi>1</multi>
+    <edit>true</edit>
+    <chi>false</chi>
+    <high-limit>1950.0</high-limit>
+    <low-limit>1950.0</low-limit>
+  </column>
+  <column Nr="12">
+    <name><![CDATA[<html><br>δ<sup>13</sup>C<br>(‰)</html>]]></name>
+    <value>d13</value>
+    <val-name>∂¹³C</val-name>
+    <width>50</width>
+    <format>#0.0</format>
+    <multi>1000</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="13">
+    <name><![CDATA[<html><br>error<br>(‰)</html>]]></name>
+    <value>d13_err</value>
+    <val-name>error (abs) ∂¹³C</val-name>
+    <width>44</width>
+    <format>#0.0</format>
+    <multi>1000</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="14">
+    <name><![CDATA[<html><br>age<br>(y)</html>]]></name>
+    <value>age</value>
+    <val-name>age (year BP)</val-name>
+    <width>60</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="15">
+    <name><![CDATA[<html><br>error<br>(y)</html>]]></name>
+    <value>age_err</value>
+    <val-name>error of age (y)</val-name>
+    <width>44</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="16">
+    <name />
+    <value>active</value>
+    <val-name>active</val-name>
+    <width>20</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>true</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="17">
+    <name><![CDATA[<html><br><br>type</html>]]></name>
+    <value>sampletype</value>
+    <val-name>sampletype</val-name>
+    <width>55</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>true</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="18">
+    <name><![CDATA[<html><br><br>runs</html>]]></name>
+    <value>cycles</value>
+    <val-name>cycles</val-name>
+    <width>55</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="19">
+    <name><![CDATA[<html><br><br>weight</html>]]></name>
+    <value>weight</value>
+    <val-name>weight</val-name>
+    <width>40</width>
+    <format>#,##0.0</format>
+    <multi>1</multi>
+    <edit>true</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="20">
+    <name><![CDATA[<html>cal<br>1σ<br>(BC)</html>]]></name>
+    <value>cal1Low</value>
+    <val-name>Cal age 1-σ low</val-name>
+    <width>60</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>true</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="21">
+    <name><![CDATA[<html>cal<br>1σ<br>(BC)</html>]]></name>
+    <value>cal1High</value>
+    <val-name>Cal age 1-σ high</val-name>
+    <width>60</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>true</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="22">
+    <name><![CDATA[<html>cal<br>2σ<br>(BC)</html>]]></name>
+    <value>cal2Low</value>
+    <val-name>Cal age 2-σ low</val-name>
+    <width>60</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>true</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="23">
+    <name><![CDATA[<html>cal<br>2σ<br>(BC)</html>]]></name>
+    <value>cal2High</value>
+    <val-name>Cal age 2-σ high</val-name>
+    <width>60</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>true</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="24">
+    <name><![CDATA[<html>cal<br>3σ<br>(BC)</html>]]></name>
+    <value>cal3Low</value>
+    <val-name>Cal age 3-σ low</val-name>
+    <width>60</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>true</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="25">
+    <name><![CDATA[<html>cal<br>3σ<br>(BC)</html>]]></name>
+    <value>cal3High</value>
+    <val-name>Cal age 3-σ high</val-name>
+    <width>60</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>true</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+</sample>
+

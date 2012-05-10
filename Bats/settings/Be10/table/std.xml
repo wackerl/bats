@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<std date="Fri Sep 17 11:37:17 CEST 2010">
+  <column Nr="0">
+    <name><![CDATA[run]]></name>
+    <value>run</value>
+    <val-name>run</val-name>
+    <width>64</width>
+    <format />
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="1">
+    <name><![CDATA[pos.]]></name>
+    <value>posit</value>
+    <val-name>posit</val-name>
+    <width>36</width>
+    <format />
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="2">
+    <name><![CDATA[label]]></name>
+    <value>label</value>
+    <val-name>label</val-name>
+    <width>70</width>
+    <format />
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="3">
+    <name><![CDATA[<html><sup>10</sup>Be<br>corr.</html>]]></name>
+    <value>r_cor</value>
+    <val-name>r_cor</val-name>
+    <width>64</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="4">
+    <name><![CDATA[<html><sup>9</sup>Be (HE)<br>(nA)</html>]]></name>
+    <value>a_cur</value>
+    <val-name>a_cur</val-name>
+    <width>60</width>
+    <format>##0.0</format>
+    <multi>1000</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="5">
+    <name><![CDATA[<html><sup>10</sup>Be/<sup>9</sup>Be<br>(10<sup>-12</sup>)<br>for nom.</html>]]></name>
+    <value>std_ra</value>
+    <val-name>std_ra</val-name>
+    <width>60</width>
+    <format>#,##0.0000</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="6">
+    <name><![CDATA[err]]></name>
+    <value>std_ra_err</value>
+    <val-name>std_ra_err</val-name>
+    <width>60</width>
+    <format>0.0000</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="7">
+    <name><![CDATA[sig]]></name>
+    <value>std_ra_sig</value>
+    <val-name>std_ra_sig</val-name>
+    <width>60</width>
+    <format>0.0000</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="8">
+    <name><![CDATA[Chi2]]></name>
+    <value>std_ra_chi</value>
+    <val-name>Χ²(red) std 10Be/9Be</val-name>
+    <width>40</width>
+    <format>#,##0.0</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>true</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="9">
+    <name><![CDATA[cyles]]></name>
+    <value>cycles</value>
+    <val-name>cycles</val-name>
+    <width>40</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="10">
+    <name><![CDATA[active]]></name>
+    <value>active</value>
+    <val-name>active</val-name>
+    <width>45</width>
+    <format />
+    <multi>1</multi>
+    <edit>true</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+</std>
+

@@ -1,0 +1,44 @@
+/*Amsel style sheet */
+@media print{
+	h1    { font-size: 100%; font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif; text-align: left; vertical-align: bottom }
+	h2  { font-size: 100%; page-break-before: always }
+  	h3, h4 { page-break-after: avoid; }
+  	.printOnly, #footer  { font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif; display: block }
+  	body  { color: black; background-color: white; text-align: center; margin: 0; padding: 0 }
+	table       { font-size: 10pt; font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif; font-style: normal; background-color: #ffffff; text-align: right; margin: 2pt; min-width: 150px; max-width: 1000px; vertical-align: middle; border: solid 0 silver; border-collapse: collapse; empty-cells: show        }
+	td     { padding: 2pt; margin: 0;; border-style: none }
+	tr      { font-size: 10pt; line-height: 10pt }
+	.TableHeading        { color: navy; font-weight: bold; background-color: #dfdfff; text-align: center; vertical-align: bottom; border-style: solid none; border-width: 0.5pt medium; border-color: black }
+	.top { vertical-align: top }
+	.std { color: #900 }
+	.g  { background-color: #e6edff }
+	.bl { color: #009 }
+	.nb { color: #00611C }
+	.Sample    { background-color: #ffffcf; border-style: dotted none solid; border-width: 1pt medium; border-color: orange black }
+	.False   { color: silver; margin: 0; padding: 4pt }
+	sup	  { font-size: 80%; font-style: normal; vertical-align: 3pt }
+}
+@media screen{
+	h1 { font-size: 100%; text-align: left; vertical-align: bottom }
+  	h2  { font-size: 100%; page-break-before: always }
+  	h3, h4 { page-break-after: avoid; }
+  	.printOnly, #footer { display: block; }
+  	body { 
+	    margin: 0; 
+	    padding: 0;
+	    color: black; 
+	    background-color: white 
+  	}
+	table     { font-size: 12pt; font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif; font-style: normal; background-color: #ffffff; text-align: right; margin: 6pt; min-width: 150pt; max-width: 1000px; vertical-align: middle; border: solid 0 silver; border-collapse: collapse; empty-cells: show      }
+	td    { padding: 2pt; margin: 0; border-style: none }
+	tr    { font-size: 12pt; line-height: 10pt }
+	.top { vertical-align: top }
+	.std { color: #900 }
+	.g  { background-color: #e6edff }
+	.bl { color: #009 }
+	.nb { color: #00611C }
+	.TableHeading        { background-color: #dfdfff; text-align: center; vertical-align: bottom; border-style: solid none; border-width: 1pt medium; border-color: black }
+	.Sample    { background-color: #ffffcf; border-style: dotted none solid; border-width: 1pt medium; border-color: orange black }
+	.False   { color: silver; }
+	sup	  { font-size: 80%; font-style: normal; vertical-align: 3pt }
+}

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<standard date="Mon Jan 10 11:16:47 CET 2011">
+  <std name="oxa1">
+    <ra>1.21</ra>
+    <ra_sig>0.0</ra_sig>
+    <ba />
+    <ba_nom />
+    <ba_sig />
+    <delta>-19.4</delta>
+    <delta_nom>-19.0</delta_nom>
+    <delta_sig>0.1</delta_sig>
+    <pmC>105.26</pmC>
+    <pmC_sig>0.0</pmC_sig>
+    <active>true</active>
+  </std>
+  <std name="oxa2">
+    <ra />
+    <ra_sig />
+    <ba />
+    <ba_nom />
+    <ba_sig />
+    <delta>-17.8</delta>
+    <delta_nom>-25.0</delta_nom>
+    <delta_sig>0.1</delta_sig>
+    <pmC>134.066</pmC>
+    <pmC_sig>0.05</pmC_sig>
+    <active>true</active>
+  </std>
+  <std name="iaea-c6">
+    <ra>1.21</ra>
+    <ra_sig>0.0</ra_sig>
+    <ba />
+    <ba_nom />
+    <ba_sig />
+    <delta>-11.2</delta>
+    <delta_nom>-25.0</delta_nom>
+    <delta_sig>0.1</delta_sig>
+    <pmC>150.61</pmC>
+    <pmC_sig>0.11</pmC_sig>
+    <active>false</active>
+  </std>
+  <std name="wil">
+    <ra>1.21</ra>
+    <ra_sig>0.0</ra_sig>
+    <ba />
+    <ba_nom />
+    <ba_sig />
+    <delta>-11.6</delta>
+    <delta_nom>-11.6</delta_nom>
+    <delta_sig>0.1</delta_sig>
+    <pmC>346.04</pmC>
+    <pmC_sig>1.0</pmC_sig>
+    <active>true</active>
+  </std>
+  <std name="atem">
+    <ra>1.21</ra>
+    <ra_sig>0.0</ra_sig>
+    <ba />
+    <ba_nom />
+    <ba_sig />
+    <delta>-20.0</delta>
+    <delta_nom>-25.0</delta_nom>
+    <delta_sig>3.0</delta_sig>
+    <pmC>107.0</pmC>
+    <pmC_sig>2.0</pmC_sig>
+    <active>true</active>
+  </std>
+  <std name="std">
+    <ra>1.21</ra>
+    <ra_sig>0.0</ra_sig>
+    <ba />
+    <ba_nom />
+    <ba_sig />
+    <delta>-17.8</delta>
+    <delta_nom>-25.0</delta_nom>
+    <delta_sig>0.1</delta_sig>
+    <pmC>134.066</pmC>
+    <pmC_sig>0.05</pmC_sig>
+    <active>false</active>
+  </std>
+  <std name="oxII">
+    <ra>1.21</ra>
+    <ra_sig>0.0</ra_sig>
+    <ba />
+    <ba_nom />
+    <ba_sig />
+    <delta>-17.8</delta>
+    <delta_nom>-25.0</delta_nom>
+    <delta_sig>0.1</delta_sig>
+    <pmC>134.066</pmC>
+    <pmC_sig>0.05</pmC_sig>
+    <active>true</active>
+  </std>
+  <std name="oxalico">
+    <ra>1.21</ra>
+    <ra_sig>0.0</ra_sig>
+    <ba />
+    <ba_nom />
+    <ba_sig />
+    <delta>-17.8</delta>
+    <delta_nom>-25.0</delta_nom>
+    <delta_sig>0.1</delta_sig>
+    <pmC>134.066</pmC>
+    <pmC_sig>0.05</pmC_sig>
+    <active>true</active>
+  </std>
+  <std name="lnz">
+    <ra>1.21</ra>
+    <ra_sig>0.0</ra_sig>
+    <ba />
+    <ba_nom />
+    <ba_sig />
+    <delta>-28.8</delta>
+    <delta_nom>-25.0</delta_nom>
+    <delta_sig>0.0</delta_sig>
+    <pmC>104.62</pmC>
+    <pmC_sig>0.25</pmC_sig>
+    <active>true</active>
+  </std>
+  <std name="std">
+    <ra>1.21</ra>
+    <ra_sig>0.0</ra_sig>
+    <ba />
+    <ba_nom />
+    <ba_sig />
+    <delta>-19.4</delta>
+    <delta_nom>-19.0</delta_nom>
+    <delta_sig>0.1</delta_sig>
+    <pmC>105.26</pmC>
+    <pmC_sig>0.0</pmC_sig>
+    <active>true</active>
+  </std>
+  <std name="oxa1_carb">
+    <ra>1.21</ra>
+    <ra_sig>0.0</ra_sig>
+    <ba />
+    <ba_nom />
+    <ba_sig />
+    <delta>-19.4</delta>
+    <delta_nom>-19.0</delta_nom>
+    <delta_sig>0.1</delta_sig>
+    <pmC>105.26</pmC>
+    <pmC_sig>0.0</pmC_sig>
+    <active>true</active>
+  </std>
+  <std name="oxI">
+    <ra>1.21</ra>
+    <ra_sig>0.0</ra_sig>
+    <ba />
+    <ba_nom />
+    <ba_sig />
+    <delta>-19.4</delta>
+    <delta_nom>-19.0</delta_nom>
+    <delta_sig>0.1</delta_sig>
+    <pmC>105.26</pmC>
+    <pmC_sig>0.0</pmC_sig>
+    <active>true</active>
+  </std>
+</standard>
+

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<isotope date="Tue Sep 20 15:49:38 CEST 2011" version="3.15cv (16.09.2011)">
+  <path>/Users/christof/bats</path>
+  <!--settings for isotope specific (Cl36) calculations-->
+  <calc>
+    <poisson>true</poisson>
+    <dead_time>0.0001200</dead_time>
+    <fract>true</fract>
+    <mean>2</mean>
+    <!--default or 1: mean of runs / 2: mean of samples-->
+    <blank>
+      <label>b</label>
+      <label>bl</label>
+      <label>blank</label>
+      <label>bck</label>
+    </blank>
+    <bg>
+      <isobar>g2</isobar>
+      <factor>3.0E-5</factor>
+      <error>0</error>
+      <offset>0</offset>
+    </bg>
+    <scatter>0.0100</scatter>
+    <current>
+      <a>
+        <error_rel>0.000100</error_rel>
+        <error_abs>0.000000000</error_abs>
+        <offset>0.000000000</offset>
+      </a>
+      <b>
+        <error_rel>0.000100</error_rel>
+        <error_abs>0.000000000</error_abs>
+        <offset>0.000000000</offset>
+      </b>
+      <iso>
+        <error_rel>0.0</error_rel>
+        <error_abs>0.0</error_abs>
+        <offset>0.0</offset>
+      </iso>
+      <correction>
+        <a_slope>0.0</a_slope>
+        <a_slope_off>5</a_slope_off>
+        <b_slope>0</b_slope>
+        <b_slope_off>5</b_slope_off>
+      </correction>
+      <charge>7</charge>
+    </current>
+    <nominal_ra>22.91100</nominal_ra>
+    <nominal_ba>0.31978</nominal_ba>
+  </calc>
+  <db active="true">
+    <ora active="true">
+      <url>jdbc:oracle:thin:@coopers.ethz.ch:1521:AMS9</url>
+      <user>wvockenhuber</user>
+      <driver>oracle.jdbc.driver.OracleDriver</driver>
+      <pw>Imperium10</pw>
+      <timeout>60</timeout>
+      <last_iso>CL36</last_iso>
+      <last_year>2010</last_year>
+      <last_mag>K110615T</last_mag>
+      <virtual>true</virtual>
+      <cycle name="false">6</cycle>
+    </ora>
+    <sql-import active="false">
+      <driver>com.mysql.jdbc.Driver</driver>
+      <url>mysql://zwoelfi.ethz.ch</url>
+      <user>wacker</user>
+      <pw />
+      <timeout>5</timeout>
+      <last_year>2008</last_year>
+      <last_mag>RTEST</last_mag>
+      <cycle_t>db_tca41.workana</cycle_t>
+      <run_t>db_tca41.workproto</run_t>
+      <final_t>db_tca41.workfinal</final_t>
+      <cycle_enable>db_tca41.setCycleEnable</cycle_enable>
+      <cycles_enable>db_tca41.setCyclesEnable</cycles_enable>
+      <run_enable>db_tca41.setRunEnable</run_enable>
+      <runs_enable>db_tca41.setRunsEnable</runs_enable>
+      <cycle name="false">10</cycle>
+    </sql-import>
+    <sql active="false">
+      <driver>com.mysql.jdbc.Driver</driver>
+      <url>mysql://zwoelfi.ethz.ch</url>
+      <user />
+      <pw />
+      <timeout>5</timeout>
+      <last_year auto="true">2009</last_year>
+      <timespan>36</timespan>
+      <!--If auto is true the last x month are displayed-->
+      <cycle name="false">10</cycle>
+      <last_mag />
+      <sample_t>db_ams.target_v</sample_t>
+      <run_t>db_ca41.workproto_v_nt</run_t>
+      <cycle_t>db_ca41.workana</cycle_t>
+      <calc_corr_t>db_ams.calc_corr_t</calc_corr_t>
+      <calcset_t>db_ams.calc_set_t</calcset_t>
+      <calc_sample_t>db_ams.calc_sample_t</calc_sample_t>
+      <cycle_enable>db_ca41.setCycleEnable</cycle_enable>
+      <cycles_enable>db_ca41.setCyclesEnable</cycles_enable>
+      <run_enable>db_ca41.setRunEnable</run_enable>
+      <runs_enable>db_ca41.setRunsEnable</runs_enable>
+    </sql>
+    <last_mag />
+    <cycle_edit>true</cycle_edit>
+  </db>
+  <file>
+    <last>
+      <filename>/Users/christof/bats/K110615T/K110615T.bats</filename>
+      <filename>/Users/christof/bats/K110615H/K110615H.bats</filename>
+      <filename>/Users/christof/bats/K110615G/K110615G.bats</filename>
+      <filename>/Users/christof/bats/K110615F/K110615F.bats</filename>
+      <filename>/Users/christof/bats/K110615S/K110615S.bats</filename>
+      <filename>/Users/christof/bats/K110615E/K110615E.bats</filename>
+      <filename>/Users/christof/bats/K110615D/K110615D.bats</filename>
+      <filename>/Users/christof/bats/K110615B/K110615B.bats</filename>
+      <filename>/Users/christof/bats/K110615C/K110615C.bats</filename>
+      <filename>/Users/christof/bats/K110615A/K110615A.bats</filename>
+    </last>
+    <format>
+      <all>/Users/christof/Documents/workspace/Bats/settings/Cl36/table/all.xml</all>
+      <std>/Users/christof/Documents/workspace/Bats/settings/Cl36/table/std.xml</std>
+      <bl>/Users/christof/Documents/workspace/Bats/settings/Cl36/table/bl.xml</bl>
+      <run>/Users/christof/Documents/workspace/Bats/settings/Cl36/table/run.xml</run>
+      <sample>/Users/christof/Documents/workspace/Bats/settings/Cl36/table/sample.xml</sample>
+      <xhtml>/Users/christof/Documents/workspace/Bats/settings/Cl36/table/output.xml</xhtml>
+      <cycle>/Users/christof/Documents/workspace/Bats/settings/Cl36/table/cycle.xml</cycle>
+    </format>
+  </file>
+  <!--tabbed pane set-up for this isotope-->
+  <tab_pane>
+    <tab1>passes and mean</tab1>
+    <tab2>passes only</tab2>
+    <tab3>blank</tab3>
+    <tab4><![CDATA[<html>std <sup>36</sup>Cl/<sup>35</sup>Cl</html>]]></tab4>
+    <tab6>samples</tab6>
+    <tab7>output</tab7>
+  </tab_pane>
+  <!--standard set-up for this isotope-->
+  <std-setup>
+    <col>
+      <field>name</field>
+      <name>Name</name>
+    </col>
+    <col>
+      <field>ra</field>
+      <name>36Cl/35Cl (1E-12)</name>
+    </col>
+    <col>
+      <field>ra_sig</field>
+      <name>sigma</name>
+    </col>
+    <col>
+      <field>active</field>
+      <name>active</name>
+    </col>
+  </std-setup>
+  <graph>
+    <background>-2170124</background>
+    <bg>
+      <title>Isobar correction</title>
+      <data>runBlank</data>
+      <x_value multi="1">g2</x_value>
+      <x_axes>36S (counts)</x_axes>
+      <y_value multi="1">ra_bg</y_value>
+      <y_axes>36Cl/35Cl (1E-12)</y_axes>
+      <unit>* 36S</unit>
+    </bg>
+    <time>
+      <title>Time correction</title>
+      <data>runStd</data>
+      <x_value multi="1">time</x_value>
+      <x_axes>time (h)</x_axes>
+      <y_value multi="1">std_ra</y_value>
+      <y_axes>36Cl/35Cl (1E-12)</y_axes>
+      <s_range>20</s_range>
+    </time>
+    <ra>
+      <title>35Cl correction (36Cl/35Cl)</title>
+      <data>runStd</data>
+      <x_value multi="1000">a</x_value>
+      <x_axes>high-energy current (nA)</x_axes>
+      <y_value multi="1">ra_cur</y_value>
+      <y_axes>36Cl/35Cl (1E-12)</y_axes>
+      <s_range>10</s_range>
+    </ra>
+  </graph>
+</isotope>
+
