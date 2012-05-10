@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ora date="Mon Febs 07 CET 2007">
+	<proto_virtual>
+		<val name="a">b</val>
+		<val name="ana">anb</val>
+		<val name="cycles">cycles</val>
+		<val name="g1">g1</val>
+		<val name="label">label</val>
+		<val name="magazine">magazine</val>
+		<val name="posit">posit</val>
+		<val name="r">r</val>
+		<val name="ra">rb</val>
+		<val name="rasig">rbsig</val>
+		<val name="run">run</val>
+		<val name="runtime">runtime</val>
+		<val name="tra">tra</val>
+		<val name="trasig">trasig</val>	
+		<val name="commentinfo">commentinfo</val>
+		<val name="magazine">magazine</val>
+		<val name="carrier">carrier</val>
+		<val name="sampletype">samptype</val>
+		<val name="timedatora">timedat</val>
+		<val name="weight">weight</val>
+	</proto_virtual>	
+	<proto>
+		<val name="a">b</val>
+		<val name="ana">anb</val>
+		<val name="cycle">cycles</val>
+		<val name="g1">g1</val>
+		<val name="label">label</val>
+		<val name="magazine">magazine</val>
+		<val name="posit">posit</val>
+		<val name="r">r</val>
+		<val name="ra">rb</val>
+		<val name="rasig">rbsig</val>
+		<val name="run">run</val>
+		<val name="runtime">runtime</val>
+		<val name="timedatora">timedat</val>
+		<val name="tra">tra</val>
+		<val name="trasig">trasig</val>	
+	</proto>
+	<ana>
+		<val name="a">b</val>
+		<val name="ana">anb</val>
+		<val name="g1">g1</val>
+		<val name="label">label</val>
+		<val name="r">r</val>
+		<val name="ra">rb</val>
+		<val name="rasig">rbsig</val>
+		<val name="cycle">cycle</val>
+		<val name="run">run</val>
+		<val name="runtime">runtime</val>
+		<val name="tra">tra</val>
+		<val name="timedatora">timedat</val>
+	</ana>	
+	<final>
+		<val name="commentinfo">commentinfo</val>
+		<val name="magazine">magazine</val>
+		<val name="carrier">carrier</val>
+		<val name="sampletype">samptype</val>
+		<val name="weight">weight</val>
+		<val name="username">username</val>
+		<val name="userlabel">userlabel</val>
+		<val name="label">label</val>
+		<val name="posit">posit</val>
+	</final>
+</ora>
+

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<calib date="Wed May 09 22:11:38 CEST 2012" version="3.3 (9.5.2012)">
+  <oxcal active="0">file:///Applications/OxCal/oxcal/OxCalPlot.html</oxcal>
+  <label>commentinfo</label>
+  <bp>false</bp>
+  <active>false</active>
+  <curve>intcal09.14c</curve>
+  <linear>true</linear>
+  <graph>
+    <legend>
+      <border>10</border>
+      <prefix>ETH-</prefix>
+    </legend>
+    <dimension>
+      <width>800</width>
+      <height>600</height>
+      <top>30</top>
+      <bottom>60</bottom>
+      <left>80</left>
+      <right>30</right>
+      <add_x_high>20</add_x_high>
+      <add_x_low>50</add_x_low>
+      <add_y_high>20</add_y_high>
+      <add_y_low>50</add_y_low>
+      <range>4</range>
+      <color>-1</color>
+    </dimension>
+    <line>
+      <color>-1</color>
+      <width>1.6</width>
+      <width_n>1.0</width_n>
+      <tic div="8">5</tic>
+      <tic_sub div="5">3</tic_sub>
+      <label_inc>25</label_inc>
+    </line>
+    <font>
+      <type>Helvetica</type>
+      <color>-1</color>
+      <h1>
+        <size>20</size>
+        <color>-3407872</color>
+      </h1>
+      <p>
+        <size>16</size>
+        <color>-16777216</color>
+      </p>
+    </font>
+    <axes>
+      <info>
+        <size>14</size>
+      </info>
+      <label>
+        <size>20</size>
+      </label>
+      <title>
+        <size>20</size>
+      </title>
+      <x_title_bp><![CDATA[Calendar age BP (year)]]></x_title_bp>
+      <x_title_bc><![CDATA[Calendar age BC (year)]]></x_title_bc>
+      <x_title_ad><![CDATA[Calendar age AD (year)]]></x_title_ad>
+      <x_title_ad_bc><![CDATA[Calendar age BC/AD (year)]]></x_title_ad_bc>
+      <y1_title><![CDATA[Radiocarbon age BP (year)]]></y1_title>
+    </axes>
+    <curve>
+      <sig1 active="true">
+        <color>-16776961</color>
+        <trans>0.25</trans>
+      </sig1>
+      <sig2 active="true">
+        <color>-16776961</color>
+        <trans>0.25</trans>
+      </sig2>
+    </curve>
+    <age>
+      <color>-65536</color>
+      <trans>0.5</trans>
+      <line_width>2.0</line_width>
+    </age>
+    <proba>
+      <all active="true">
+        <color>-6374492</color>
+        <trans>0.25</trans>
+      </all>
+      <sig1 active="true">
+        <color>-16737997</color>
+        <trans>0.25</trans>
+      </sig1>
+      <sig2 active="true">
+        <color>-16738048</color>
+        <trans>0.25</trans>
+      </sig2>
+      <ranges>
+        <color>-16751104</color>
+      </ranges>
+    </proba>
+    <calib_raw>
+      <size>4</size>
+      <color>-1</color>
+    </calib_raw>
+  </graph>
+</calib>
+

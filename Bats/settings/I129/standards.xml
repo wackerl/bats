@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<standard date="Tue Jul 19 17:13:51 CEST 2011">
+  <std name="D22">
+    <ra>50.3736</ra>
+    <ra_sig>0.0030</ra_sig>
+    <ba />
+    <ba_nom />
+    <ba_sig />
+    <delta />
+    <delta_nom />
+    <delta_sig />
+    <pmC />
+    <pmC_sig />
+    <active>true</active>
+  </std>
+  <std name="s">
+    <ra>50.3736</ra>
+    <ra_sig>0.0030</ra_sig>
+    <ba />
+    <ba_nom />
+    <ba_sig />
+    <delta>-19.4</delta>
+    <delta_nom>-19.0</delta_nom>
+    <delta_sig>0.0</delta_sig>
+    <pmC>1.0</pmC>
+    <pmC_sig>0.0</pmC_sig>
+    <active>true</active>
+  </std>
+</standard>
+

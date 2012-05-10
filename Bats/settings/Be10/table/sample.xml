@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sample date="Fri Sep 17 11:46:28 CEST 2010">
+  <column Nr="0">
+    <name><![CDATA[label]]></name>
+    <value>label</value>
+    <val-name>label</val-name>
+    <width>60</width>
+    <format />
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="1">
+    <name><![CDATA[sample description]]></name>
+    <value>commentinfo</value>
+    <val-name>commentinfo</val-name>
+    <width>150</width>
+    <format />
+    <multi>1</multi>
+    <edit>true</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="2">
+    <name><![CDATA[<html><sup>10</sup>Be</html>]]></name>
+    <value>r</value>
+    <val-name>r</val-name>
+    <width>65</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="3">
+    <name><![CDATA[<html><sup>9</sup>Be (LE)<br>(nA)</html>]]></name>
+    <value>ana</value>
+    <val-name>ana</val-name>
+    <width>60</width>
+    <format>##0</format>
+    <multi>1000</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="4">
+    <name><![CDATA[<html><sup>10</sup>Be/<sup>9</sup>Be<br>10<sup>-12</sup><br>raw</html>]]></name>
+    <value>ra</value>
+    <val-name>ra</val-name>
+    <width>60</width>
+    <format>#,##0.000</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="5">
+    <name><![CDATA[<html><sup>10</sup>Be/<sup>9</sup>Be<br>10<sup>-12</sup><br>bg corr.</html>]]></name>
+    <value>ra_bg</value>
+    <val-name>ra_bg</val-name>
+    <width>60</width>
+    <format>#,##0.000</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="6">
+    <name><![CDATA[<html><sup>10</sup>Be/<sup>9</sup>Be<br>10<sup>-12</sup><br>bl. corr.</html>]]></name>
+    <value>ra_bl</value>
+    <val-name>ra_bl</val-name>
+    <width>60</width>
+    <format>#,##0.000</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="7">
+    <name><![CDATA[<html><sup>10</sup>Be/<sup>9</sup>Be<br>10<sup>-12</sup><br>final</html>]]></name>
+    <value>ra_fin</value>
+    <val-name>ra_fin</val-name>
+    <width>65</width>
+    <format>#,##0.000</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="8">
+    <name><![CDATA[<html>sig (%)<br>rel.</html>]]></name>
+    <value>ra_fin_sigR</value>
+    <val-name>ra_fin_sigR</val-name>
+    <width>55</width>
+    <format>0.00</format>
+    <multi>100</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="9">
+    <name><![CDATA[<html>err (%)<br>rel.</html>]]></name>
+    <value>ra_fin_errR</value>
+    <val-name>ra_fin_errR</val-name>
+    <width>55</width>
+    <format>0.00</format>
+    <multi>100</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="10">
+    <name><![CDATA[Chi2]]></name>
+    <value>ra_fin_chi</value>
+    <val-name>Χ²(red) 10Be/9Be std</val-name>
+    <width>45</width>
+    <format>#,##0.0</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>true</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="11">
+    <name><![CDATA[active]]></name>
+    <value>active</value>
+    <val-name>active</val-name>
+    <width>45</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>true</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="12">
+    <name><![CDATA[type]]></name>
+    <value>sampletype</value>
+    <val-name>sampletype</val-name>
+    <width>45</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>true</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+</sample>
+

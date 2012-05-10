@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<standard date="Wed Nov 03 15:00:28 CET 2010">
+  <std name="b9">
+    <ra>4119.0</ra>
+    <ra_sig>0.0</ra_sig>
+    <ba />
+    <ba_nom />
+    <ba_sig />
+    <delta>-19.4</delta>
+    <delta_nom>-19.0</delta_nom>
+    <delta_sig>0.1</delta_sig>
+    <pmC>105.26</pmC>
+    <pmC_sig>0.0</pmC_sig>
+    <active>true</active>
+  </std>
+  <std name="b10">
+    <ra>420.0</ra>
+    <ra_sig>0.0</ra_sig>
+    <ba />
+    <ba_nom />
+    <ba_sig />
+    <delta>-19.4</delta>
+    <delta_nom>-19.0</delta_nom>
+    <delta_sig>0.0</delta_sig>
+    <pmC>1.0</pmC>
+    <pmC_sig>0.0</pmC_sig>
+    <active>true</active>
+  </std>
+  <std name="b11">
+    <ra>41.6</ra>
+    <ra_sig>0.0</ra_sig>
+    <ba />
+    <ba_nom />
+    <ba_sig />
+    <delta>-19.4</delta>
+    <delta_nom>-19.0</delta_nom>
+    <delta_sig>0.0</delta_sig>
+    <pmC>1.0</pmC>
+    <pmC_sig>0.0</pmC_sig>
+    <active>true</active>
+  </std>
+  <std name="s9">
+    <ra>4119.0</ra>
+    <ra_sig>0.0</ra_sig>
+    <ba />
+    <ba_nom />
+    <ba_sig />
+    <delta>-19.4</delta>
+    <delta_nom>-19.0</delta_nom>
+    <delta_sig>0.0</delta_sig>
+    <pmC>1.0</pmC>
+    <pmC_sig>0.0</pmC_sig>
+    <active>true</active>
+  </std>
+  <std name="s10">
+    <ra>420.0</ra>
+    <ra_sig>0.0</ra_sig>
+    <ba />
+    <ba_nom />
+    <ba_sig />
+    <delta>-19.4</delta>
+    <delta_nom>-19.0</delta_nom>
+    <delta_sig>0.0</delta_sig>
+    <pmC>1.0</pmC>
+    <pmC_sig>0.0</pmC_sig>
+    <active>true</active>
+  </std>
+  <std name="s11">
+    <ra>41.6</ra>
+    <ra_sig>0.0</ra_sig>
+    <ba />
+    <ba_nom />
+    <ba_sig />
+    <delta>-19.4</delta>
+    <delta_nom>-19.0</delta_nom>
+    <delta_sig>0.0</delta_sig>
+    <pmC>1.0</pmC>
+    <pmC_sig>0.0</pmC_sig>
+    <active>true</active>
+  </std>
+</standard>
+

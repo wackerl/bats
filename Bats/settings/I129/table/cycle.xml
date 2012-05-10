@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cycle date="Sun Feb 28 21:37:14 CET 2010">
+  <column Nr="0">
+    <name><![CDATA[<html><br><br>run</html>]]></name>
+    <value>run</value>
+    <val-name>run</val-name>
+    <width>82</width>
+    <format />
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="1">
+    <name><![CDATA[<html><br><br>cyle</html>]]></name>
+    <value>cycles</value>
+    <val-name>cycles</val-name>
+    <width>40</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="2">
+    <name><![CDATA[<html><sup>127</sup>I<br>LE<br>(&micro;A)</html>]]></name>
+    <value>ana</value>
+    <val-name>127I current LE (µA)</val-name>
+    <width>50</width>
+    <format>##0.00</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+    <column Nr="3">
+    <name><![CDATA[<html><sup>127</sup>I<br>HE<br>(&micro;A)</html>]]></name>
+    <value>a</value>
+    <val-name>127I current HE (µA)</val-name>
+    <width>50</width>
+    <format>##0.00</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="4">
+    <name><![CDATA[<html><sup>127</sup>I<br>trans.<br>(%)</html>]]></name>
+    <value>tra</value>
+    <val-name>transmission (127I)</val-name>
+    <width>62</width>
+    <format>#,##0.0</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>40.0</high-limit>
+    <low-limit>30.0</low-limit>
+  </column>
+  <column Nr="5">
+    <name><![CDATA[<html><br><sup>129</sup>I<br>unc.</html>]]></name>
+    <value>r</value>
+    <val-name>129I</val-name>
+    <width>50</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="6">
+    <name><![CDATA[<html><sup>129</sup>I/<sup>127</sup>I<br>unc.<br>(10<sup>-12</sup>)<br></html>]]></name>
+    <value>ra</value>
+    <val-name>129I/127I</val-name>
+    <width>75</width>
+    <format>#,##0.00</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="7">
+    <name />
+    <value>active</value>
+    <val-name>active</val-name>
+    <width>24</width>
+    <format />
+    <multi>1</multi>
+    <edit>true</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+</cycle>
+

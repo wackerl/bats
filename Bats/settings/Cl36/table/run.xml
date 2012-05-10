@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<run date="Fri Jul 15 16:07:38 CEST 2011">
+  <column Nr="0">
+    <name><![CDATA[<html><br><br>pos</html>]]></name>
+    <value>posit</value>
+    <val-name>position</val-name>
+    <width>28</width>
+    <format />
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="1">
+    <name><![CDATA[<html><br><br>run</html>]]></name>
+    <value>run</value>
+    <val-name>run</val-name>
+    <width>82</width>
+    <format />
+    <multi>1</multi>
+    <edit>true</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="2">
+    <name><![CDATA[<html><br><br>comment</html>]]></name>
+    <value>commentinfo</value>
+    <val-name>commentinfo</val-name>
+    <width>110</width>
+    <format />
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="3">
+    <name><![CDATA[<html><br><br>label</html>]]></name>
+    <value>label</value>
+    <val-name>label</val-name>
+    <width>70</width>
+    <format />
+    <multi>1</multi>
+    <edit>true</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="4">
+    <name><![CDATA[<html><sup>35</sup>Cl<br>LE<br>(&micro;A)</html>]]></name>
+    <value>ana</value>
+    <val-name>35Cl current LE (µA)</val-name>
+    <width>60</width>
+    <format>#,##0.00</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>10.0</high-limit>
+    <low-limit>1.0</low-limit>
+  </column>
+  <column Nr="5">
+    <name><![CDATA[<html><sup>35</sup>Cl<br>HE<br>(&micro;A)</html>]]></name>
+    <value>a</value>
+    <val-name>35Cl current (µA)</val-name>
+    <width>60</width>
+    <format>#,##0.00</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>10.0</high-limit>
+    <low-limit>1.0</low-limit>
+  </column>
+  <column Nr="6">
+    <name><![CDATA[<html><sup>37</sup>Cl<br>HE<br>(&micro;A)</html>]]></name>
+    <value>b</value>
+    <val-name>37Cl current (µA)</val-name>
+    <width>60</width>
+    <format>#,##0.00</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>10.0</high-limit>
+    <low-limit>1.0</low-limit>
+  </column>
+  <column Nr="7">
+    <name><![CDATA[<html><sup>35</sup>Cl<br>trans<br>(%)</html>]]></name>
+    <value>tra</value>
+    <val-name>transmission (35Cl)</val-name>
+    <width>45</width>
+    <format>#0.0</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="8">
+    <name><![CDATA[<html><sup>37</sup>Cl/<sup>35</sup>Cl<br>unc.<br>(%)<br></html>]]></name>
+    <value>ba</value>
+    <val-name>37Cl/35Cl</val-name>
+    <width>70</width>
+    <format>#,##0.00</format>
+    <multi>100</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="9">
+    <name><![CDATA[<html><br>err.<br>(%)</html>]]></name>
+    <value>ba_err</value>
+    <val-name>error (rel)</val-name>
+    <width>50</width>
+    <format>#,##0.000</format>
+    <multi>100</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="10">
+    <name><![CDATA[<html><sup>36</sup>S<br><br></html>]]></name>
+    <value>g2</value>
+    <val-name>36S (counts)</val-name>
+    <width>62</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="11">
+    <name><![CDATA[<html><sup>36</sup>Cl<br><br></html>]]></name>
+    <value>r</value>
+    <val-name>36Cl</val-name>
+    <width>62</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="12">
+    <name><![CDATA[<html><sup>36</sup>Cl<br>corr.<br></html>]]></name>
+    <value>r_cor</value>
+    <val-name>36Cl bg-corr.</val-name>
+    <width>62</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="13">
+    <name><![CDATA[<html><sup>36</sup>Cl/<sup>35</sup>Cl<br>unc.<br>(10<sup>-12</sup>)<br></html>]]></name>
+    <value>ra</value>
+    <val-name>36Cl/35Cl</val-name>
+    <width>70</width>
+    <format>#,##0.000</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="14">
+    <name><![CDATA[<html><br>σ<br>(%)</html>]]></name>
+    <value>ra_errR</value>
+    <val-name>error (rel) 36Cl/35Cl</val-name>
+    <width>50</width>
+    <format>#,##0.0</format>
+    <multi>100</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="15">
+    <name><![CDATA[<html><sup>36</sup>Cl/<sup>35</sup>Cl<br>final<br>(10<sup>-12</sup>)<br></html>]]></name>
+    <value>ra_fin</value>
+    <val-name>36Cl/35Cl std corrected</val-name>
+    <width>70</width>
+    <format>#,##0.000</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="16">
+    <name><![CDATA[<html><br>err<br>(%)</html>]]></name>
+    <value>ra_fin_errR</value>
+    <val-name>error (rel) 36Cl/35Cl std corrected</val-name>
+    <width>55</width>
+    <format>0.0</format>
+    <multi>100</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="17">
+    <name><![CDATA[<html><br>σ<br>(%)</html>]]></name>
+    <value>ra_fin_sig</value>
+    <val-name>sigma (abs) 36Cl/35Cl std corrected</val-name>
+    <width>55</width>
+    <format>0.0</format>
+    <multi>100</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="18">
+    <name><![CDATA[<html><br>time<br>(s)</html>]]></name>
+    <value>runtime</value>
+    <val-name>runtime</val-name>
+    <width>42</width>
+    <format>#0</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="19">
+    <name><![CDATA[<html><br><br>cyc</html>]]></name>
+    <value>cycles</value>
+    <val-name>cycles</val-name>
+    <width>30</width>
+    <format>#,##0</format>
+    <multi>1</multi>
+    <edit>false</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="20">
+    <name />
+    <value>active</value>
+    <val-name>active</val-name>
+    <width>20</width>
+    <format />
+    <multi>1</multi>
+    <edit>true</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+  <column Nr="21">
+    <name><![CDATA[<html><br><br>type</html>]]></name>
+    <value>sampletype</value>
+    <val-name>sampletype</val-name>
+    <width>45</width>
+    <format />
+    <multi>1</multi>
+    <edit>true</edit>
+    <chi>false</chi>
+    <high-limit>0.0</high-limit>
+    <low-limit>0.0</low-limit>
+  </column>
+</run>
+

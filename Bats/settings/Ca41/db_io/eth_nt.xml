@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql date="WED Dec 23 CET 2009">
+	<sample_save>
+		<field field="c14_age">age</field>
+		<field field="c14_age_sig">age_err</field>
+		<field field="dc13">d13</field>
+		<field field="fM">fM</field>
+		<field field="fM_sig">fM_err</field>
+		<field field="calc1sMin">cal1Low</field> 
+		<field field="calc1sMax">cal1High</field> 
+		<field field="calc2sMin">cal2Low</field> 
+		<field field="calc2sMax">cal2High</field> 
+	</sample_save>	
+	<run_open>
+		<val field="a">a</val>
+		<val field="ratrue">active</val>
+		<val field="ana">ana</val>
+		<val field="anb">anb</val>
+		<val field="anbana">anbana</val>
+		<val field="b">b</val>
+		<val field="ba">ba_pc</val>
+		<val field="basig">basig</val>
+		<val field="cycles">cycles</val>
+		<val field="g1">g1</val>
+		<val field="g2">g2</val>
+		<val field="iso">iso</val>
+		<val field="r">r</val>
+		<val field="ra">ra</val>
+		<val field="rasig">rasig</val>
+		<val field="rb">rb</val>
+		<val field="rbsig">rbsig</val>
+		<val field="run">run</val>
+		<val field="runtime">runtime</val>
+		<val field="strippr">stripper</val>
+		<val field="timedat">timestamp</val>
+		<val field="tra">tra</val>
+		<val field="trasig">tra_sig</val>	
+	</run_open>
+	<sample_open>
+		<val field="magazine">magazine</val>
+		<val field="calcset">calcset</val>
+		<val field="type">type</val>
+		<val field="material">material</val>
+		<val field="fraction">fraction</val>
+		<val field="co2_final">weight</val>
+		<val field="last_name">username</val>
+		<val field="user_label">userlabel</val>
+		<val field="user_label_nr">userlabel_nr</val>
+		<val field="user_desc1">desc1</val>
+		<val field="user_desc2">desc2</val>
+		<val field="sample_nr">sample_nr</val>
+		<val field="target_nr">target_nr</val>
+		<val field="prep_nr">prep_nr</val>
+		<val field="position">posit</val>
+	</sample_open>
+</sql>
+

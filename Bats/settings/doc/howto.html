@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+		<meta name="generator" content="Adobe GoLive">
+		<title>Untitled Page</title>
+		<link href="stylesheet.css" rel="stylesheet" type="text/css" media="all">
+	</head>
+
+	<body bgcolor="#ffffff">
+		<table width="600" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td colspan="3" width="600">
+					<h1>How-to</h1>
+					<ul>
+						<li>Import the data either directly from the <span class="cit">database</span> (-&gt; Import from database), from a <span class="cit">dat</span>-file (format for dbxl-import) or from a <span class="cit">bats</span>-file previously created.
+						<li>Check if you need to split your dataset for the corrections.
+						<li>Check that the errors and offsets of the current measurement are set right (-&gt; <span class="cit"><a href="preferences.html" target="main">Preferences</a></span>).
+						<li>(Check if you need a time correction on radioisotope.)
+						
+						<li>Set appropriate <span class="cit"><a href="standard.html" target="main">standard</a></span>, <span class="cit"><a href="blank.html" target="main">blank</a></span> (and <span class="cit"><a href="background.html" target="main">isobar</a></span>) labels (if not jet done).
+						<li>Make current correction, if needed (-&gt; current correction panel).
+						<li>Make background or <a href="isobar.html">isobar correction</a> (open isobar correction panel).
+						<li>Check blank calcuation; the mean blank with the uncertainty of the blank scatter should should be taken. Alternatively, the mean with only the statistical error can be taken, when in <span class="cit"><a href="preferences.html" target="main">preferences</a></span> the appropriate <span class="cit">blank scatter</span> is set.
+						<li>For radiocarbon the 13/12 correction has to be calculated. Check for outlayers and check if errors are right (often the current measurement errors are underestimated and need to be adjusted now!)
+						<li>Make radioisotope ratio correction. Check again for outlayers. Internal and external errors should be about the same! <br>
+							In case the sigma is significantly larger, there is a dominant non-statistic uncertainty on the standard data. You might choose then the scatter of the runs (error column) for the error of the standard...
+						<li>Now check the final data. I might be you are finished!
+					</ul>
+					<p></p>
+					<p></p>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" width="600">
+					<p>&nbsp;</p>
+					<hr noshade size="1" color="#000080">
+				</td>
+			</tr>
+			<tr>
+				<td width="200">
+					<div align="left">
+						<i><span class="last">13.03.2008</span></i></div>
+				</td>
+				<td width="200"></td>
+				<td width="200">
+					<div align="right">
+						<i><span class="last">by Lukas Wacker</span></i></div>
+				</td>
+			</tr>
+		</table>
+	</body>
+
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nec>
+  <sample>
+    <index>1</index> 
+    <val name="posit">1</val>
+    <val name="sampletype">2</val>
+    <val name="label">3</val>
+    <val name="userlabel">3</val>
+  </sample>
+  <run pre="6">
+  	<index>5</index>
+  	<pass>6</pass>
+    <val name="cycle">7</val>
+    <val name="time_nec">3</val>
+    <val name="runtime_nec">7</val>
+    <val name="stripper">20</val>
+    <val name="r">14</val>
+    <val name="b_amp">11</val>
+    <val name="a_amp">10</val>
+    <val name="ana_amp">8</val>
+    <val name="anb_amp">9</val>
+    <val name="g1">12</val>
+  </run>
+</nec>
