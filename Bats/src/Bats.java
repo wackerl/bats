@@ -1,10 +1,6 @@
 /*
-<<<<<<< HEAD
- * Bats.java ***
-=======
- * Bats.java
->>>>>>> refs/remotes/choose_remote_name/master
  *
+ * Bats.java
  *
  */
 import org.apache.log4j.Logger;
