@@ -43,15 +43,6 @@
   </file>
   <calc>
     <autocalc>true</autocalc>
-    <blank>
-      <label>b</label>
-      <label>bl</label>
-      <label>blank</label>
-      <label>bck</label>
-      <label>fbl</label>
-      <label>iaea-c1</label>
-      <label>bl_carb</label>
-    </blank>
     <chi ll="true">1</chi>
     <!-- 0: 99% / 1: 95% / 2: 90% / 3: 80% -->
   </calc>

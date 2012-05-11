@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <isotope date="Fri May 11 13:58:48 CEST 2012" version="3.3 (9.5.2012)">
-  <path>/Users/lukas/bats</path>
+  <path></path>
   <!--settings for isotope specific (C14) calculations-->
   <calc>
     <poisson>true</poisson>
@@ -23,7 +23,7 @@
       <label>iaea-c1</label>
       <label>bl_carb</label>
     </blank>
-    <scatter>0.0010</scatter>
+    <scatter>0.0020</scatter>
     <current>
       <a>
         <error_rel>1.0E-4</error_rel>
@@ -54,9 +54,9 @@
   <db active="true">
     <ora active="false">
       <url>jdbc:oracle:thin:@coopers.ethz.ch:1521:AMS9</url>
-      <user>wacker</user>
+      <user></user>
       <driver>oracle.jdbc.driver.OracleDriver</driver>
-      <pw>ccb123</pw>
+      <pw></pw>
       <timeout>60</timeout>
       <last_iso>MC14</last_iso>
       <last_year>2008</last_year>
@@ -67,8 +67,8 @@
     <sql-import active="true">
       <driver>com.mysql.jdbc.Driver</driver>
       <url>mysql://mysql.phys.ethz.ch</url>
-      <user>wacker</user>
-      <pw>ccb123</pw>
+      <user></user>
+      <pw></pw>
       <timeout>5</timeout>
       <last_year>2008</last_year>
       <last_mag>C120427B</last_mag>
@@ -84,8 +84,8 @@
     <sql active="false">
       <driver>com.mysql.jdbc.Driver</driver>
       <url>mysql://mysql.phys.ethz.ch</url>
-      <user>wacker</user>
-      <pw>ccb123</pw>
+      <user></user>
+      <pw></pw>
       <timeout>5</timeout>
       <last_year auto="true">2009</last_year>
       <timespan>36</timespan>
@@ -109,16 +109,7 @@
   </db>
   <file>
     <last>
-      <filename>/Users/lukas/bats/C20120505DG/C20120505DG+.bats</filename>
-      <filename>/Users/lukas/bats/C20120505DG/C20120505DG.bats</filename>
-      <filename>/Users/lukas/bats/C110712G/C110712G.bats</filename>
-      <filename>/Users/lukas/bats/C110706G/C110706G.bats</filename>
-      <filename>/Users/lukas/bats/C120420B/C120420B.bats</filename>
-      <filename>/Users/lukas/bats/C120420A/C120420A.bats</filename>
-      <filename>/Users/lukas/bats/C20120414DG/C20120414DG.bats</filename>
-      <filename>/Users/lukas/bats/C120413A/C120413A.bats</filename>
-      <filename>/Users/lukas/bats/C20120413DG/C20120413DG.bats</filename>
-      <filename>/Users/lukas/bats/C120404B/C120404B.bats</filename>
+      <filename></filename>
     </last>
     <format>
       <all>/Users/lukas/git/BATS/Bats/settings/C14/table/all.xml</all>
