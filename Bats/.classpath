@@ -2,52 +2,49 @@
 <classpath>
 	<classpathentry excluding="calib/" kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/jaxen-core.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/xml-apis-xerces.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/jaxen-jdom.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/jdom.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/saxpath.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/ojdbc14.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/log4j-1.2.14.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/minium.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/looks-2.1.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/core-renderer.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/jfreechart-1.0.12.jar" sourcepath="/Users/lukas/Documents/workspace/jfreechart/source">
-		<attributes>
-			<attribute name="javadoc_location" value="file:/Users/lukas/Documents/workspace/jfreechart/source/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/iText-2.0.8.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="file:/Users/lukas/Documents/workspace/iText/itext-docs-1.4.8/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/jcommon-1.0.15.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/commons-math-1.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/mysql-connector-java-5.1.8-bin.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/acrobat.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/batik/batik-anim.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/batik/batik-awt-util.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/batik/batik-bridge.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/batik/batik-codec.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/batik/batik-css.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/batik/batik-dom.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/batik/batik-ext.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/batik/batik-extension.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/batik/batik-gui-util.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/batik/batik-gvt.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/batik/batik-parser.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/batik/batik-script.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/batik/batik-svg-dom.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/batik/batik-svggen.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/batik/batik-swing.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/batik/batik-transcoder.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/batik/batik-util.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/batik/batik-xml.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/batik/js.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/batik/pdf-transcoder.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/xerces.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/BrowserLauncher2.jar"/>
-	<classpathentry exported="true" kind="lib" path="/Users/lukas/Documents/workspace/lib/xml-apis-ext.jar"/>
+	<classpathentry kind="lib" path="lib/acrobat.jar"/>
+	<classpathentry kind="lib" path="lib/bats.jar"/>
+	<classpathentry kind="lib" path="lib/BrowserLauncher2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-math-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/core-renderer.jar"/>
+	<classpathentry kind="lib" path="lib/iText-2.0.8.jar"/>
+	<classpathentry kind="lib" path="lib/jaxen-core.jar"/>
+	<classpathentry kind="lib" path="lib/jaxen-jdom.jar"/>
+	<classpathentry kind="lib" path="lib/jcommon-1.0.15.jar"/>
+	<classpathentry kind="lib" path="lib/jdom.jar"/>
+	<classpathentry kind="lib" path="lib/jfreechart-1.0.12.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/looks-2.1.4.jar"/>
+	<classpathentry kind="lib" path="lib/minium.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.16-bin.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.8-bin.jar"/>
+	<classpathentry kind="lib" path="lib/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="lib/saxpath.jar"/>
+	<classpathentry kind="lib" path="lib/xalan.jar"/>
+	<classpathentry kind="lib" path="lib/xerces.jar"/>
+	<classpathentry kind="lib" path="lib/xml-apis-ext.jar"/>
+	<classpathentry kind="lib" path="lib/xml-apis-xerces.jar"/>
+	<classpathentry kind="lib" path="lib/xml-apis.jar"/>
+	<classpathentry kind="lib" path="lib/batik/batik-anim.jar"/>
+	<classpathentry kind="lib" path="lib/batik/batik-awt-util.jar"/>
+	<classpathentry kind="lib" path="lib/batik/batik-bridge.jar"/>
+	<classpathentry kind="lib" path="lib/batik/batik-codec.jar"/>
+	<classpathentry kind="lib" path="lib/batik/batik-css.jar"/>
+	<classpathentry kind="lib" path="lib/batik/batik-dom.jar"/>
+	<classpathentry kind="lib" path="lib/batik/batik-ext.jar"/>
+	<classpathentry kind="lib" path="lib/batik/batik-extension.jar"/>
+	<classpathentry kind="lib" path="lib/batik/batik-gui-util.jar"/>
+	<classpathentry kind="lib" path="lib/batik/batik-gvt.jar"/>
+	<classpathentry kind="lib" path="lib/batik/batik-parser.jar"/>
+	<classpathentry kind="lib" path="lib/batik/batik-script.jar"/>
+	<classpathentry kind="lib" path="lib/batik/batik-svg-dom.jar"/>
+	<classpathentry kind="lib" path="lib/batik/batik-svggen.jar"/>
+	<classpathentry kind="lib" path="lib/batik/batik-swing.jar"/>
+	<classpathentry kind="lib" path="lib/batik/batik-transcoder.jar"/>
+	<classpathentry kind="lib" path="lib/batik/batik-util.jar"/>
+	<classpathentry kind="lib" path="lib/batik/batik-xml.jar"/>
+	<classpathentry kind="lib" path="lib/batik/js.jar"/>
+	<classpathentry kind="lib" path="lib/batik/pdf-transcoder.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
