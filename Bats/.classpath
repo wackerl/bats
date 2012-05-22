@@ -3,7 +3,6 @@
 	<classpathentry excluding="calib/" kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry kind="lib" path="lib/acrobat.jar"/>
-	<classpathentry kind="lib" path="lib/bats.jar"/>
 	<classpathentry kind="lib" path="lib/BrowserLauncher2.jar"/>
 	<classpathentry kind="lib" path="lib/commons-math-1.1.jar"/>
 	<classpathentry kind="lib" path="lib/core-renderer.jar"/>
@@ -13,12 +12,10 @@
 	<classpathentry kind="lib" path="lib/jcommon-1.0.15.jar"/>
 	<classpathentry kind="lib" path="lib/jdom.jar"/>
 	<classpathentry kind="lib" path="lib/jfreechart-1.0.12.jar"/>
-	<classpathentry kind="lib" path="lib/log4j-1.2.14.jar"/>
 	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
 	<classpathentry kind="lib" path="lib/looks-2.1.4.jar"/>
 	<classpathentry kind="lib" path="lib/minium.jar"/>
 	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.16-bin.jar"/>
-	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.8-bin.jar"/>
 	<classpathentry kind="lib" path="lib/ojdbc14.jar"/>
 	<classpathentry kind="lib" path="lib/saxpath.jar"/>
 	<classpathentry kind="lib" path="lib/xalan.jar"/>

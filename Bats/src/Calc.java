@@ -346,6 +346,7 @@ abstract class Calc {
 	protected void calcAll(){
 		if (runListL!=null && corrList!=null && corrList.size()!=0){
 			loadSetting();
+			log.debug("                                  "+deadtime);
 			log.debug("Data (size: "+runListL.size()+") will be recalculated!");
 			runPreCalc(runListL);
 			for (int i=0; i<sampleList.size();i++) {
