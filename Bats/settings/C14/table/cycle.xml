@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cycle date="Wed Nov 03 21:03:31 CET 2010">
+<cycle date="Thu Aug 16 11:52:54 CEST 2012">
   <column Nr="0">
     <name><![CDATA[<html><br><br>run</html>]]></name>
     <value>run</value>
     <val-name>run</val-name>
     <width>82</width>
     <format />
-    <multi>1</multi>
+    <multi>1.0</multi>
     <edit>false</edit>
     <chi>false</chi>
     <high-limit>0.0</high-limit>
@@ -16,9 +16,9 @@
     <name><![CDATA[<html><br><br>cyle</html>]]></name>
     <value>cycles</value>
     <val-name>cycles</val-name>
-    <width>40</width>
+    <width>34</width>
     <format>#,##0</format>
-    <multi>1</multi>
+    <multi>1.0</multi>
     <edit>false</edit>
     <chi>false</chi>
     <high-limit>0.0</high-limit>
@@ -30,7 +30,7 @@
     <val-name>¹⁴C</val-name>
     <width>50</width>
     <format>#,##0</format>
-    <multi>1</multi>
+    <multi>1.0</multi>
     <edit>false</edit>
     <chi>false</chi>
     <high-limit>0.0</high-limit>
@@ -40,21 +40,21 @@
     <name><![CDATA[<html><sup>12</sup>C<br>HE<br>(µA)</html>]]></name>
     <value>a</value>
     <val-name>¹²C current (µA)</val-name>
-    <width>50</width>
+    <width>40</width>
     <format>##0.00</format>
-    <multi>1</multi>
+    <multi>1.0</multi>
     <edit>false</edit>
     <chi>false</chi>
     <high-limit>0.0</high-limit>
     <low-limit>0.0</low-limit>
   </column>
   <column Nr="4">
-    <name><![CDATA[<html><sup>13</sup>C<br>HE<br>(nA)</html>]]></name>
-    <value>b</value>
-    <val-name>¹³C current (µA)</val-name>
+    <name><![CDATA[<html>runtime<br>(s)</html>]]></name>
+    <value>runtime</value>
+    <val-name>runtime</val-name>
     <width>50</width>
-    <format>##0.0</format>
-    <multi>1000</multi>
+    <format>##0.00</format>
+    <multi>1.0</multi>
     <edit>false</edit>
     <chi>false</chi>
     <high-limit>0.0</high-limit>
@@ -65,8 +65,8 @@
     <value>ra</value>
     <val-name>¹⁴C/¹²C</val-name>
     <width>65</width>
-    <format>#,##0.00000</format>
-    <multi>1</multi>
+    <format>#,##0.000</format>
+    <multi>1.0</multi>
     <edit>false</edit>
     <chi>false</chi>
     <high-limit>0.0</high-limit>
@@ -77,20 +77,20 @@
     <value>ba</value>
     <val-name>¹³C/¹²C uncorr.</val-name>
     <width>60</width>
-    <format>0.0000</format>
-    <multi>100</multi>
+    <format>0.000</format>
+    <multi>100.0</multi>
     <edit>false</edit>
     <chi>false</chi>
     <high-limit>0.0</high-limit>
     <low-limit>0.0</low-limit>
   </column>
   <column Nr="7">
-    <name><![CDATA[<html><br><sup>13</sup>C(H)<br>(nA)]]></name>
+    <name><![CDATA[<html><br>C(H)<br>(nA)]]></name>
     <value>iso</value>
-    <val-name>¹³CH (µA)</val-name>
-    <width>55</width>
-    <format>0.000</format>
-    <multi>1000</multi>
+    <val-name>¹³C(H) (µA)</val-name>
+    <width>40</width>
+    <format>0.00</format>
+    <multi>1000.0</multi>
     <edit>false</edit>
     <chi>false</chi>
     <high-limit>0.0</high-limit>
@@ -100,9 +100,9 @@
     <name><![CDATA[<html><br>trans.<br>(%)]]></name>
     <value>tra</value>
     <val-name>transmission (¹²C)</val-name>
-    <width>55</width>
+    <width>40</width>
     <format>0.0</format>
-    <multi>1000</multi>
+    <multi>1.0</multi>
     <edit>false</edit>
     <chi>false</chi>
     <high-limit>0.0</high-limit>
@@ -114,7 +114,7 @@
     <val-name>active</val-name>
     <width>24</width>
     <format />
-    <multi>1</multi>
+    <multi>1.0</multi>
     <edit>true</edit>
     <chi>false</chi>
     <high-limit>0.0</high-limit>

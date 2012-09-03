@@ -93,6 +93,14 @@
 		<name field="pmC_sig">  sigma (abs) pmC</name>
 		<name field="pmC_sigR">  sigma (rel) pmC</name>
 		<name field="pmC_chi">  Χ²(red) pmC</name>
+		<name field="fM">F¹⁴C</name>
+		<name field="fM_err">  error (abs) F¹⁴C</name>
+		<name field="fM_errR">  error (rel) F¹⁴C</name>
+		<name field="fM_a">F¹⁴C(absolute)</name>
+		<name field="fM_a_err">  error (abs) F¹⁴C(absolute)</name>
+		<name field="fM_a_errR">  error (rel) F¹⁴C(absolute)</name>
+		<name field="D14">∆¹⁴C</name>
+		<name field="fM_a_err">  error (abs) ∆¹⁴C</name>
 		<name field="pmC_a">pmC(absolute)</name>
 		<name field="pmC_a_err">  error (abs) pmC(absolute)</name>
 		<name field="pmC_a_errR">  error (rel) pmC(absolute)</name>

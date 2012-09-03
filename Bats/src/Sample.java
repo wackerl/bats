@@ -685,15 +685,20 @@ public class Sample implements DataSet, Cloneable {
 			else if (name.equals("fM")) { return pmC/100; }
 			else if (name.equals("fM_err")) { return pmC_err/100; }
 			else if (name.equals("fM_errR")) { return pmC_err/pmC; }
+			else if (name.equals("fM_a")) { return pmC/Math.exp((sample_date.get(sample_date.YEAR)-1950.0)/826700); }
+			else if (name.equals("fM_a_err")) { return pmC_err/Math.exp((sample_date.get(sample_date.YEAR)-1950.0)/826700); }
+			else if (name.equals("fM_a_errR")) { return pmC_err/pmC; }
+			else if (name.equals("D14")) { return (Math.exp((1950-sample_date.YEAR)/8267)*Math.exp(-age/8033)-1)*1000; }
+			else if (name.equals("D14_err")) { return age_err/8.267; }
 			else if (name.equals("pmC")) { return pmC; }
 			else if (name.equals("pmC_err")) { return pmC_err; }
 			else if (name.equals("pmC_sig")) { return pmC_sig; }
 			else if (name.equals("pmC_errR")) { return pmC_err/pmC; }
 			else if (name.equals("pmC_sigR")) { return pmC_sig/pmC; }
 			else if (name.equals("pmC_chi")) { return Math.pow(pmC_sig/pmC,2)/Math.pow(ra_cur_err/ra_bl,2); } 	
-			else if (name.equals("pmC_a")) { return pmC/Math.exp((sample_date.get(sample_date.YEAR)-1950.0)/8223); }
-			else if (name.equals("pmC_a_err")) { return pmC_err/Math.exp((sample_date.get(sample_date.YEAR)-1950.0)/8223); }
-			else if (name.equals("pmC_a_sig")) { return pmC_sig/Math.exp((sample_date.get(sample_date.YEAR)-1950.0)/8223); }
+			else if (name.equals("pmC_a")) { return pmC/Math.exp((sample_date.get(sample_date.YEAR)-1950.0)/8267); }
+			else if (name.equals("pmC_a_err")) { return pmC_err/Math.exp((sample_date.get(sample_date.YEAR)-1950.0)/8267); }
+			else if (name.equals("pmC_a_sig")) { return pmC_sig/Math.exp((sample_date.get(sample_date.YEAR)-1950.0)/8267); }
 			else if (name.equals("pmC_a_errR")) { return pmC_err/pmC; }
 			else if (name.equals("pmC_a_sigR")) { return pmC_sig/pmC; }
 //cv

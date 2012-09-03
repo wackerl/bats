@@ -2,7 +2,8 @@ Manifest-Version: 1.0
 Main-Class: Bats
 Class-Path: lib/jaxen-core.jar 
 lib/xml-apis-xerces.jar 
-lib/jaxen-jdom.jar lib/jdom.jar 
+lib/jaxen-jdom.jar 
+lib/jdom.jar 
 lib/saxpath.jar 
 lib/ojdbc14.jar 
 lib/log4j-1.2.14.jar 
@@ -35,7 +36,8 @@ lib/batik/batik-util.jar
 lib/batik/batik-xml.jar 
 lib/batik/js.jar 
 lib/batik/pdf-transcoder.jar 
-lib/xml-apis-ext.jar lib/xerces.jar
+lib/xml-apis-ext.jar 
+lib/xerces.jar
 Created-By: Lukas Wacker
 Main-Class: Bats
 Name: BATSSpecification-Title: BATSSpecification-Version: 3.3Specification-Vendor: Lukas WackerImplementation-Title: BATSImplementation-Version: build1Implementation-Vendor: Lukas Wacker / Switzerland

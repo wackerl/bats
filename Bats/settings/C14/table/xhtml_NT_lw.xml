@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xhtml date="Sat Jun 23 14:33:51 CEST 2012">
+<xhtml date="Thu Aug 30 16:39:44 CEST 2012">
   <column Nr="0">
     <name><![CDATA[<html>ETH<br>nr.</html>]]></name>
     <value>label</value>
@@ -76,7 +76,7 @@
     <name><![CDATA[<html><sup>14</sup>C/<sup>12</sup>C<br>(10<sup>-12</sup>)</html>]]></name>
     <value>ra</value>
     <val-name>14C/12C</val-name>
-    <width>60</width>
+    <width>70</width>
     <format>#,##0.0000</format>
     <multi>1.0</multi>
     <edit>false</edit>
@@ -100,7 +100,7 @@
     <name><![CDATA[<html><sup>13</sup>C/<sup>12</sup>C<br>(%)]]></name>
     <value>ba</value>
     <val-name>13C/12C uncorr.</val-name>
-    <width>60</width>
+    <width>70</width>
     <format>#,##0.0000</format>
     <multi>100.0</multi>
     <edit>false</edit>
@@ -121,21 +121,21 @@
     <low-limit>0.0</low-limit>
   </column>
   <column Nr="10">
-    <name><![CDATA[<html>F<sup>14</sup>C<br>unc.</html>]]></name>
-    <value>ra_fin</value>
-    <val-name>pmC without δ¹³C corr.</val-name>
+    <name><![CDATA[<html>F<sup>14</sup>C<br></html>]]></name>
+    <value>fM</value>
+    <val-name>F¹⁴C</val-name>
     <width>54</width>
     <format>0.0000</format>
-    <multi>0.01</multi>
+    <multi>1.0</multi>
     <edit>false</edit>
     <chi>false</chi>
     <high-limit>0.0</high-limit>
     <low-limit>0.0</low-limit>
   </column>
   <column Nr="11">
-    <name><![CDATA[<html>F<sup>14</sup>C<br>corr.</html>]]></name>
-    <value>pmC</value>
-    <val-name>pmC</val-name>
+    <name><![CDATA[<html>F<sup>14</sup>C<br>(no 13/12)</html>]]></name>
+    <value>ra_fin</value>
+    <val-name>pmC without δ¹³C corr.</val-name>
     <width>54</width>
     <format>0.0000</format>
     <multi>0.01</multi>
@@ -205,18 +205,6 @@
     <low-limit>0.0</low-limit>
   </column>
   <column Nr="17">
-    <name><![CDATA[<html>+-<br>(&permil;)</html>]]></name>
-    <value>iso</value>
-    <val-name>¹³C(H) (µA)</val-name>
-    <width>40</width>
-    <format>#,##0.0</format>
-    <multi>1000.0</multi>
-    <edit>false</edit>
-    <chi>false</chi>
-    <high-limit>0.0</high-limit>
-    <low-limit>0.0</low-limit>
-  </column>
-  <column Nr="18">
     <name><![CDATA[<html><sup>13</sup>C(H)<br>(nA)</html>]]></name>
     <value>iso</value>
     <val-name>¹³C(H) (µA)</val-name>
@@ -228,7 +216,7 @@
     <high-limit>0.0</high-limit>
     <low-limit>0.0</low-limit>
   </column>
-  <column Nr="19">
+  <column Nr="18">
     <name><![CDATA[<html>size<br>(µg)</html>]]></name>
     <value>weight</value>
     <val-name>weight</val-name>
@@ -240,7 +228,7 @@
     <high-limit>0.0</high-limit>
     <low-limit>0.0</low-limit>
   </column>
-  <column Nr="20">
+  <column Nr="19">
     <name><![CDATA[<html>user<br></html>]]></name>
     <value>username</value>
     <val-name>username</val-name>

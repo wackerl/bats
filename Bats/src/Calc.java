@@ -387,6 +387,7 @@ abstract class Calc {
 			if (Setting.blankLabel.contains(sampleList.get(k).type.toLowerCase())){
 				ArrayList<Run> labelRuns = runLabelList.get(k);
 				runBlank.addAll(labelRuns);
+				log.debug(sampleList.get(k).type.toLowerCase());
 			} else if ((sampleList.get(k).type.toLowerCase()).equals("iso")){
 					ArrayList<Run> labelRuns = runLabelList.get(k);
 					runIso.addAll(labelRuns);

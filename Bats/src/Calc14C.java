@@ -263,6 +263,7 @@ public class Calc14C extends Calc{
 			try {
 				if (run.r<=0) {
 					run.ra_err = 0.0;
+					run.ra_sig = 0.0;
 				} else {
 					run.ra_err = Math.sqrt(Math.pow(run.r_err/run.r,2)+Math.pow(run.a_err/run.a,2))*run.ra;}
 				} 

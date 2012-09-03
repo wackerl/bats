@@ -354,6 +354,7 @@ public class Corr14C extends Corr {
 		}
 	}
 	blankR.number=k;
+	log.debug(k);
 	blankR.ra_bg = s2 / s1;
 	if(k>1) {
 		blankR.ra_bg_sig = Math.sqrt( (s3 - Math.pow(s2,2)/s1) / (s1 *(k-1)) );
@@ -362,6 +363,7 @@ public class Corr14C extends Corr {
 		blankR.ra_bg = 0.0;
 		blankR.ra_bg_err = 0.0;
 		blankR.ra_bg_sig = 0.0;
+		log.debug("Set blank 0!");
 	} else {
 		blankR.ra_bg_sig = s_sig;
 		blankR.ra_bg_err = Math.sqrt(s4) / s1;
